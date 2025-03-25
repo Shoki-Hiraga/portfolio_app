@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PythonController;
+use App\Http\Controllers\FormController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,5 +16,14 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('main.index');
 });
+
+Route::get('/', [PythonController::class, 'index']);
+
+Route::get('/about', function () {
+    return view('main.about');
+})->name('mp_about');
+
+Route::get('/form', [FormController::class, 'showForm'])->name('form');
+Route::post('/form', [FormController::class, 'submitForm']);
