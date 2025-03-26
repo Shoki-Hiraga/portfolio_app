@@ -21,6 +21,10 @@ Route::get('/', function () {
 
 Route::get('/', [PythonController::class, 'index']);
 
+Route::get('/yourmystar', function () {
+    return view('main.yourmystar');
+})->name('mp_yourmystar');
+
 Route::get('/about', function () {
     return view('main.about');
 })->name('mp_about');

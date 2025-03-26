@@ -5,7 +5,7 @@
 @include('components.header')
 @include('components.link')
 
-<title>{{ $python_title }}</title>
+<title></title>
 </head>
 <body>
     <h1>私のポートフォリオ </h1>
