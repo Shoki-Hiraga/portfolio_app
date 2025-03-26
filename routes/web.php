@@ -21,6 +21,10 @@ Route::get('/', function () {
 
 Route::get('/', [PythonController::class, 'index']);
 
+Route::get('/paltek', function () {
+    return view('main.paltek');
+})->name('mp_paltek');
+
 Route::get('/yourmystar', function () {
     return view('main.yourmystar');
 })->name('mp_yourmystar');

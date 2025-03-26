@@ -3,5 +3,5 @@
 @endphp
 
 @if ($company)
-    入社年：{{ $company['start'] }}　退職年：{{ $company['end'] }}
+    入社：{{ $company['start'] }}　退職：{{ $company['end'] }}
 @endif
