@@ -88,3 +88,9 @@ body {
     }
   }
   
+.top_image {
+  max-width: 640px;
+  height: auto; /* 好きな固定値に */
+  width: 100%; /* 幅を親に合わせて縮小可 */
+  object-fit: cover; /* 画像の切り取り調整したい時 */
+}
