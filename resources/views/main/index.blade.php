@@ -21,11 +21,16 @@
                 <span class="top_year">@include('components.year', ['target' => 'yourmystar'])</sapn>
             </a>
         </h3>
+        <h3 class="history">
+            <a href="{{ route('mp_idealump') }}">株式会社アイデアランプ
+                <span class="top_year">@include('components.year', ['target' => 'idealump'])</sapn>
+            </a>
+        </h3>
+        <h3 class="history">
+            <a href="{{ route('mp_current') }}">カレント自動車株式会社
+                <span class="top_year">@include('components.year', ['target' => 'current'])></sapn>
+        </h3>
 
-
-        <p>ユアマイスター株式会社 @include('components.year', ['target' => 'yourmystar'])</p>
-        <p>株式会社アイデアランプ @include('components.year', ['target' => 'idealump'])</p>
-        <p>カレント自動車株式会社 @include('components.year', ['target' => 'current'])</p>
 </div>
 </body>
 </html>
