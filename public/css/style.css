@@ -3,6 +3,9 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f9f9f9;
     color: #333;
+    max-width: 1000px;
+    width: 80%;
+    margin: 0 auto;
   }
   
   h1, h2{
@@ -93,4 +96,20 @@ body {
   height: auto; /* 好きな固定値に */
   width: 100%; /* 幅を親に合わせて縮小可 */
   object-fit: cover; /* 画像の切り取り調整したい時 */
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.self, .organization {
+  max-width: 300px;
+  padding: 4px 12px;
+  background-color: #e0f0ff;
+  color: #007acc;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 5px;
+  border: 1px solid #b3dfff;
+  margin: 20px auto;
+  
+  pointer-events: none; /* 非クリッカブル */
 }

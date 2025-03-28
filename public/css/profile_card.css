@@ -1,0 +1,72 @@
+.name {
+  color: #ffffff;
+}
+.card {
+  display: flex;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  max-width: 1000px;
+  margin: auto;
+  margin-top: 50xp;
+  margin-bottom: 50px;
+}
+
+.left {
+  background: linear-gradient(to bottom right, #00bcd4, #1e88e5);
+  color: white;
+  padding: 20px;
+  width: 250px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.left img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  object-position: 0% -3%;/* 縦0、横-3%ずらす */
+  margin: 0 auto 20px;
+}
+
+.left h2 {
+  margin: 10px 0 5px;
+  font-size: 24px;
+}
+
+.left p {
+  font-size: 14px;
+}
+
+.right {
+  padding: 20px;
+  flex: 1;
+}
+
+.info-row {
+  display: flex;
+  border-bottom: 1px solid #eee;
+  padding: 8px 0;
+  text-align: left;
+}
+
+.info-row .label {
+  width: 120px;
+  font-weight: bold;
+  color: #0077c2;
+  margin-right: 15px;
+}
+
+.info-row .value {
+  flex: 1;
+}
+
+.message {
+  margin-top: 15px;
+  padding-top: 10px;
+  border-top: 2px solid #0077c2;
+}
