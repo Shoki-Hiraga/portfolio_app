@@ -34,8 +34,8 @@
       <strong>Webディレクション業務</strong><br>
       新規Webサイト制作および既存サイトの機能追加における要件定義・ワイヤー作成・画面設計・進行管理などを担当。
       <ul>
-        <li><a href="https://shisaly.com/" target="_blank">shisaly.com</a>：Laravelを用いたフルスクラッチ案件（予算1,500万円）</li>
-        <li><a href="https://rabostar.com/" target="_blank">rabostar.com</a>：ASP・PHPによるスクラッチ開発（予算1,000万円）</li>
+        <li><a href="https://shisaly.com/" target="_blank">shisaly.com</a>：Laravelを用いたフルスクラッチ案件（予算3,000万円）</li>
+        <li><a href="https://rabostar.com/" target="_blank">rabostar.com</a>：ASP・PHPによるスクラッチ開発（予算4,000万円）</li>
         <li>UI/UXを考慮した機能要件の仕様確定・デザイン確定・DBロジック連携</li>
       </ul>
     </li>
