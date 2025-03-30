@@ -17,5 +17,5 @@
         </h3>
         <h3 class="history">
             <a href="{{ route('mp_current') }}">カレント自動車株式会社
-                <span class="top_year">@include('components.year', ['target' => 'current'])></span>
+                <span class="top_year">@include('components.year', ['target' => 'current'])</span>
         </h3>
