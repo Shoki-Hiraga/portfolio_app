@@ -58,6 +58,8 @@
                             <br>
                             Webディレクターデビュー案件 <a href="https://shisaly.com/">shisaly</a>
                             <br>
+                            リニューアルと広告立上げ <a href="https://rabostar.com/">ラボスター</a>
+                            <br>
                             GPTを駆使して制作 <a href="https://carprice-info.332web.com/">中古車買取相場データベース</a>
                             <br>
                             この自己紹介サイト <a href="https://my-portfolio.332web.com/">my portfolio app</a> 
@@ -81,9 +83,10 @@
             <a href="https://carprice-info.332web.com/">中古車買取相場データベース</a>：WeアプリはLaravelとデータ取得はPython
             <br>
             <a href="https://my-portfolio.332web.com/">my portfolio app</a>：共通パーツはコンポーネント化、共通で使う処理はView::share
-
         <div class="organization">会社開発</div>
             <a href="https://shisaly.com/">shisaly</a>：要件定義～クリエイティブメンバーのディレクションをフルコミで進行
+            <br>
+            <a href="https://rabostar.com/">ラボスター</a>：リニューアルディレクション、SEO設計、広告立上げ / 運用
             <br>
             <a href="https://www.qsha-oh.com/">旧車王</a>：施策設計、GA4などのデータ分析、要件定義、開発ディレクション
 
