@@ -61,17 +61,13 @@ body {
   .start_end{
     font-size: 30px;
   }
-
   .history, .navi{
     text-align: center;
-  }
-  .top_year{
-    font-size: 16px;
   }
   /* スマホ対応 */
   @media screen and (max-width: 600px) {
     h1 {
-      font-size: 36px;
+      font-size: 32px;
     }
   
     h2 {
@@ -89,29 +85,6 @@ body {
     body {
       padding: 30px 15px;
     }
-    .top_year {
-      display: block;
-      margin-top: 4px; /* 適宜調整してください */
-    }
-    .card {
-      flex-direction: column;
-      flex-wrap: nowrap;
-      overflow-x: visible;
-    }
-  
-    .left{
-      min-width: 700px;
-    }
-    .profile_top {
-      max-width: 300px;
-    }
-    .right{
-      min-width: 700px;
-    }  
-    .left {
-      margin-bottom: 20px;
-    }
-    
   }
   
 .top_image {

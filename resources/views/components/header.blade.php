@@ -2,4 +2,5 @@
 <meta charset="UTF-8">
 <link rel="stylesheet" href="{{ asset('/css/style.css') }}">
 <link rel="stylesheet" href="{{ asset('/css/profile_card.css') }}">
+<link rel="stylesheet" href="{{ asset('/css/job_history.css') }}">
 @include('components.breadcrumb')

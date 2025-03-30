@@ -19,70 +19,71 @@
 
         <h2>プロフィール</h2>
             <div class="card">
-                <div class="left">
-                    <div class="profile_top">
-                        <img src="{{ asset('images/shoki_hiraga.png') }}" alt="平賀翔貴" class="top_image">
-                        <h2 class="name">平賀 翔貴</h2>
-                        <p class="name">ひらが しょうき</p>
-                    </div>
-                </div>
-
-                <div class="right">
-                    <div class="info-row">
-                        <div class="label">出身校</div>
-                        <div class="value">桜美林大学 LA学群 心理学専攻</div>
-                    </div>
-                    <div class="info-row">
-                        <div class="label">現職</div>
-                        <div class="value">カレント自動車株式会社</div>
-                    </div>
-                    <div class="info-row">
-                        <div class="label">所属部門</div>
-                        <div class="value">IT事業部</div>
-                    </div>
-                    <div class="info-row">
-                        <div class="label">現職種</div>
-                        <div class="value"> PdM 兼 開発ディレクター 兼 SEO担当</div>
-                    </div>
-                    <div class="info-row">
-                        <div class="label">経験職種</div>
-                        <div class="value">法人新規営業 / 個人新規営業 / Webディレクター / PdM / Webマーケ全般</div>
-                    </div>    
-                    <div class="info-row">
-                        <div class="label">趣味</div>
-                        <div class="value">車、バイクのカスタム / Webサイト運用</div>
-                    </div>
-                    <div class="info-row">
-                        <div class="label">特技</div>
-                        <div class="value">Pythonスクレイピング/スプレッドシート関数</div>
-                    </div>
-                    <div class="info-row">
-                        <div class="label">ハードスキル</div>
-                        <div class="value">GA4 / Search Console / ahrefs / PHP Laravel / Python / GPTプログラミング / Figma / AWS (少々) / Xserver / Officeソフト</div>
-                    </div>
-                    <div class="info-row">
-                        <div class="label">ポートフォリオ</div>
-                            <div class="value">
-                                SEOの勉強をしたWPサイト @include('components.web_link', ['target' => '332blog'])
-                                <br>
-                                Webディレクターデビュー案件 @include('components.web_link', ['target' => 'shisaly'])
-                                <br>
-                                リニューアルと広告立上げ @include('components.web_link', ['target' => 'rabostar'])
-                                <br>
-                                動的SEO対策の実装や運用機能追加 @include('components.web_link', ['target' => 'qsha_oh'])
-                                <br>
-                                GPTを駆使して制作 @include('components.web_link', ['target' => 'carprice'])
-                                <br>
-                                この自己紹介サイト @include('components.web_link', ['target' => 'portfolio'])
+                    <div class="left">
+                        <div class="profile_top">
+                            <img src="{{ asset('images/shoki_hiraga.png') }}" alt="平賀翔貴" class="top_image">
+                            <h2 class="name">平賀 翔貴</h2>
+                            <p class="name">ひらが しょうき</p>
                         </div>
                     </div>
-                    <div class="info-row">
-                        <div class="label">やりたいこと</div>
-                        <div class="value">ディレクターやPdMとしてのマネジメント力、Webシステムの理解力とSEOへの理解力の3つを活かして、Webサイトの開発に携わっていきたい。</div>
-                    </div>
-                    <div class="info-row message">
-                        <div class="label">将来の夢</div>
-                        <div class="value">Webプロダクトの拡大を通して、ビジネスの拡大に携わりたい。</div>
+                <div class="scroll_row">
+                    <div class="right">
+                        <div class="info-row">
+                            <div class="label">出身校</div>
+                            <div class="value">桜美林大学 LA学群 心理学専攻</div>
+                        </div>
+                        <div class="info-row">
+                            <div class="label">現職</div>
+                            <div class="value">カレント自動車株式会社</div>
+                        </div>
+                        <div class="info-row">
+                            <div class="label">所属部門</div>
+                            <div class="value">IT事業部</div>
+                        </div>
+                        <div class="info-row">
+                            <div class="label">現職種</div>
+                            <div class="value"> PdM 兼 開発ディレクター 兼 SEO担当</div>
+                        </div>
+                        <div class="info-row">
+                            <div class="label">経験職種</div>
+                            <div class="value">法人新規営業 / 個人新規営業 / Webディレクター / PdM / Webマーケ全般</div>
+                        </div>    
+                        <div class="info-row">
+                            <div class="label">趣味</div>
+                            <div class="value">車、バイクのカスタム / Webサイト運用</div>
+                        </div>
+                        <div class="info-row">
+                            <div class="label">特技</div>
+                            <div class="value">Pythonスクレイピング/スプレッドシート関数</div>
+                        </div>
+                        <div class="info-row">
+                            <div class="label">ハードスキル</div>
+                            <div class="value">GA4 / Search Console / ahrefs / PHP Laravel / Python / GPTプログラミング / Figma / AWS (少々) / Xserver / Officeソフト</div>
+                        </div>
+                        <div class="info-row">
+                            <div class="label">ポートフォリオ</div>
+                                <div class="value">
+                                    SEOの勉強をしたWPサイト @include('components.web_link', ['target' => '332blog'])
+                                    <br>
+                                    Webディレクターデビュー案件 @include('components.web_link', ['target' => 'shisaly'])
+                                    <br>
+                                    リニューアルと広告立上げ @include('components.web_link', ['target' => 'rabostar'])
+                                    <br>
+                                    動的SEO対策の実装や運用機能追加 @include('components.web_link', ['target' => 'qsha_oh'])
+                                    <br>
+                                    GPTを駆使して制作 @include('components.web_link', ['target' => 'carprice'])
+                                    <br>
+                                    この自己紹介サイト @include('components.web_link', ['target' => 'portfolio']) githubリンク<a href="https://github.com/Shoki-Hiraga/portfolio_app">git</a>
+                            </div>
+                        </div>
+                        <div class="info-row">
+                            <div class="label">やりたいこと</div>
+                            <div class="value">ディレクターやPdMとしてのマネジメント力、Webシステムの理解力とSEOへの理解力の3つを活かして、Webサイトの開発に携わっていきたい。</div>
+                        </div>
+                        <div class="info-row message">
+                            <div class="label">将来の夢</div>
+                            <div class="value">Webプロダクトの拡大を通して、ビジネスの拡大に携わりたい。</div>
+                        </div>
                     </div>
                 </div>
             </div>

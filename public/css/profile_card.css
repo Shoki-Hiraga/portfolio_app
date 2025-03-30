@@ -17,7 +17,7 @@
   background: linear-gradient(to bottom right, #00bcd4, #1e88e5);
   color: white;
   padding: 20px;
-  width: 250px;
+  width: 350px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -69,4 +69,32 @@
   margin-top: 15px;
   padding-top: 10px;
   border-top: 2px solid #0077c2;
+}
+
+@media screen and (max-width: 600px) {
+  .card {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    overflow-x: visible;
+    display: flex;
+    }
+
+  .left{
+    min-width: 700px;
+    margin-bottom: 20px;
+  }
+  .profile_top {
+    max-width: 300px;
+  }
+  .right{
+    min-width: 500px;
+  }  
+  .scroll_row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 20px;
+    -webkit-overflow-scrolling: touch;
+  }
 }

@@ -1,0 +1,28 @@
+.job_history a {
+  display: block;
+  padding: 10px;
+  margin: 10px auto;
+  background-color: #ffffff;
+  border: 2px solid #0084ff;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #0084ff;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  max-width: 500px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+  text-align: center;
+}
+
+.job_history a:hover {
+  background-color: #e6f3ff;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+  transform: translateY(-2px);
+}
+
+.job_history .top_year {
+  display: block;
+  font-size: 14px;
+  margin-top: 8px;
+  color: #555;
+}
