@@ -27,7 +27,37 @@ class AppServiceProvider extends ServiceProvider
             'current' => ['start' => '2023/04', 'end' => '現在']
         ];
     
-        View::share('companies_year', $companies_year);
+        $projects = [
+            '332blog' => [
+                'name' => '332blog',
+                'url' => 'https://332blog.com/'
+            ],
+            'shisaly' => [
+                'name' => 'shisaly',
+                'url' => 'https://shisaly.com/'
+            ],
+            'rabostar' => [
+                'name' => 'ラボスター',
+                'url' => 'https://rabostar.com/'
+            ],
+            'carprice' => [
+                'name' => '中古車買取相場データベース',
+                'url' => 'https://carprice-info.332web.com/'
+            ],
+            'portfolio' => [
+                'name' => 'my portfolio app',
+                'url' => 'https://my-portfolio.332web.com/'
+            ],
+            'qsha_oh' => [
+                'name' => '旧車王',
+                'url' => 'https://www.qsha-oh.com/'
+            ]
+        ];
+    
+        View::share([
+            'companies_year' => $companies_year,
+            'projects' => $projects
+        ]);
     }
     
 }
