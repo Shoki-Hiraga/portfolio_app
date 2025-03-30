@@ -3,7 +3,7 @@
 <head>
 @include('components.noindex')
 @include('components.header')
-@include('components.link')
+
 
 <title>
 株式会社アイデアランプ @include('components.year', ['target' => 'idealump'])
@@ -71,6 +71,6 @@
     データ分析に基づいた提案型の広告運用やSEO施策が強み。
   </p>
 </div>
-
+@include('components.job_historymenu')
 </body>
 </html>

@@ -3,7 +3,7 @@
 <head>
 @include('components.noindex')
 @include('components.header')
-@include('components.link')
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>車情報入力フォーム</title>

@@ -3,7 +3,7 @@
 <head>
 @include('components.noindex')
 @include('components.header')
-@include('components.link')
+
 
 <title>
 株式会社パルテック @include('components.year', ['target' => 'paltek'])
@@ -70,6 +70,6 @@
     後半は開発ディレクションや技術サポートも担い、社内横断的な連携を強化。
   </p>
 </div>
-
+@include('components.job_historymenu')
 </body>
 </html>

@@ -3,7 +3,7 @@
 <head>
 @include('components.noindex')
 @include('components.header')
-@include('components.link')
+
 
 <title>
 ユアマイスター株式会社 @include('components.year', ['target' => 'yourmystar'])
@@ -65,7 +65,6 @@
     営業部隊の業務効率化に貢献。このフォーマットはプロジェクト終了の翌月から<strong>新入社員研修の一環</strong>として活用されている。
   </p>
 </div>
-
-
+@include('components.job_historymenu')
 </body>
 </html>

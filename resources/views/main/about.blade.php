@@ -3,7 +3,7 @@
 <head>
 @include('components.noindex')
 @include('components.header')
-@include('components.link')
+
 
 <title></title>
 </head>

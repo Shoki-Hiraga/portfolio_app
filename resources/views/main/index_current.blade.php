@@ -3,7 +3,7 @@
 <head>
 @include('components.noindex')
 @include('components.header')
-@include('components.link')
+
 
 <title>
 カレント自動車株式会社 @include('components.year', ['target' => 'current'])
@@ -74,6 +74,6 @@
     27歳前後の若手中心チームで、調整役・推進役としてチームの機能維持に貢献。
   </p>
 </div>
-
+@include('components.job_historymenu')
 </body>
 </html>
