@@ -20,9 +20,11 @@
         <h2>プロフィール</h2>
         <div class="card">
             <div class="left">
-                <img src="{{ asset('images/shoki_hiraga.png') }}" alt="平賀翔貴" class="top_image">
-                <h2 class="name">平賀 翔貴</h2>
-                <p class="name">ひらが しょうき</p>
+                <div class="profile_top">
+                    <img src="{{ asset('images/shoki_hiraga.png') }}" alt="平賀翔貴" class="top_image">
+                    <h2 class="name">平賀 翔貴</h2>
+                    <p class="name">ひらが しょうき</p>
+                </div>
             </div>
 
             <div class="right">
@@ -99,7 +101,7 @@
             <br>
             @include('components.web_link', ['target' => 'qsha_oh'])：施策設計、GA4などのデータ分析、要件定義、開発ディレクション
 
-            <h3>
+            <!-- <h3>
                 <style>
                 h3 {
                     text-align: center;
@@ -107,27 +109,27 @@
                 </style>
                 @include('components.web_link', ['target' => 'carprice'])の構成図
             </h3>
-            <img src="{{ asset('images/market_price.png') }}" alt="Webサイトの設計" class="top_image">
+            <img src="{{ asset('images/market_price.png') }}" alt="Webサイトの設計" class="top_image"> -->
 
     <h2>職務経歴一覧</h2>
         <h3 class="history">
             <a href="{{ route('mp_paltek') }}">株式会社PALTEK
-                <span class="top_year">@include('components.year', ['target' => 'paltek'])</sapn>
+                <span class="top_year">@include('components.year', ['target' => 'paltek'])</span>
             </a>
         </h3>
         <h3 class="history">
             <a href="{{ route('mp_yourmystar') }}">ユアマイスター株式会社
-                <span class="top_year">@include('components.year', ['target' => 'yourmystar'])</sapn>
+                <span class="top_year">@include('components.year', ['target' => 'yourmystar'])</span>
             </a>
         </h3>
         <h3 class="history">
             <a href="{{ route('mp_idealump') }}">株式会社アイデアランプ
-                <span class="top_year">@include('components.year', ['target' => 'idealump'])</sapn>
+                <span class="top_year">@include('components.year', ['target' => 'idealump'])</span>
             </a>
         </h3>
         <h3 class="history">
             <a href="{{ route('mp_current') }}">カレント自動車株式会社
-                <span class="top_year">@include('components.year', ['target' => 'current'])></sapn>
+                <span class="top_year">@include('components.year', ['target' => 'current'])></span>
         </h3>
     </div>
 </body>
