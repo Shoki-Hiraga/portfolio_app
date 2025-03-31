@@ -84,7 +84,8 @@
     margin-bottom: 20px;
   }
   .profile_top {
-    max-width: 300px;
+    margin-left: 10vw;
+    max-width: 200px;
   }
   .right{
     min-width: 500px;
