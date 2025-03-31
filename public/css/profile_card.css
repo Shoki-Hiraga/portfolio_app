@@ -75,7 +75,7 @@
   .card {
     flex-direction: column;
     flex-wrap: nowrap;
-    overflow-x: visible;
+    /* overflow-x: visible; */
     display: flex;
     }
 
