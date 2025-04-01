@@ -1,10 +1,23 @@
+@keyframes breathing {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.06);
+    opacity: 0.95;
+  }
+}
+
+
+
 .job_history a {
   display: block;
   padding: 10px;
   margin: 10px auto;
   background-color: #ffffff;
   border: 2px solid #0084ff;
-  border-radius: 10px;
+  border-radius: 20px;
   text-decoration: none;
   color: #0084ff;
   font-weight: bold;
@@ -12,6 +25,9 @@
   max-width: 500px;
   box-shadow: 0 4px 8px rgba(0,0,0,0.05);
   text-align: center;
+  text-decoration:underline;
+  animation: breathing 3.0s ease-in-out infinite;
+
 }
 
 .job_history a:hover {
@@ -26,3 +42,4 @@
   margin-top: 8px;
   color: #555;
 }
+

@@ -63,13 +63,19 @@
   </ul>
 
   <h3>ポイント</h3>
-  <p>
+  <div class="point_container">
+      <div class="point_item">新規開拓</div>
+      <div class="point_item">展示会企画</div>
+      <div class="point_item">技術営業</div>
+      <div class="point_item">組込み開発ディレクション</div>
+
+  <!-- <p>
     ディレクターとして制作工程を一気通貫で担当しつつ、Webマーケターとして分析・改善も主導。
     <br>
     開発チーム・デザインチーム・マーケチームとの密な連携によって、戦略から実装、運用までを網羅したディレクションを実現。
     <br>
     データ分析に基づいた提案型の広告運用やSEO施策が強み。
-  </p>
+  </p> -->
 </div>
 @include('components.job_historymenu')
 </body>

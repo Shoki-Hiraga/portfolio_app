@@ -64,6 +64,51 @@ body {
   .history, .navi{
     text-align: center;
   }
+
+  .top_image {
+    max-width: 640px;
+    height: auto; /* 好きな固定値に */
+    width: 100%; /* 幅を親に合わせて縮小可 */
+    object-fit: cover; /* 画像の切り取り調整したい時 */
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
+  .self, .organization {
+    max-width: 300px;
+    padding: 4px 12px;
+    background-color: #e0f0ff;
+    color: #007acc;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: 1px solid #b3dfff;
+    margin: 20px auto;
+    
+    pointer-events: none; /* 非クリッカブル */
+  }
+  
+  .point_container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .point_item {
+    display: block;
+    padding: 10px;
+    background-color: #ffffff;
+    border: 2px solid #585858;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  }
+    
   /* スマホ対応 */
   @media screen and (max-width: 600px) {
     h1 {
@@ -81,31 +126,16 @@ body {
     p, ul li {
       font-size: 16px;
     }
+    .start_end{
+      font-size: 18px;
+    }
   
     body {
       padding: 30px 15px;
     }
+    .point_container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
   }
   
-.top_image {
-  max-width: 640px;
-  height: auto; /* 好きな固定値に */
-  width: 100%; /* 幅を親に合わせて縮小可 */
-  object-fit: cover; /* 画像の切り取り調整したい時 */
-  margin-top: 30px;
-  margin-bottom: 30px;
-}
-
-.self, .organization {
-  max-width: 300px;
-  padding: 4px 12px;
-  background-color: #e0f0ff;
-  color: #007acc;
-  font-size: 14px;
-  font-weight: 500;
-  border-radius: 5px;
-  border: 1px solid #b3dfff;
-  margin: 20px auto;
-  
-  pointer-events: none; /* 非クリッカブル */
-}
