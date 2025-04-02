@@ -31,7 +31,7 @@
   <h3>実績</h3>
   <ul>
     <li>
-      <strong>Webディレクション業務</strong><br>
+      <strong>ディレクション業務</strong><br>
       新規Webサイト制作および既存サイトの機能追加における要件定義・ワイヤー作成・画面設計・進行管理などを担当。
       <ul>
         <li><a href="https://shisaly.com/" target="_blank">shisaly.com</a>：Laravelを用いたフルスクラッチ案件（予算3,000万円）</li>
@@ -41,11 +41,12 @@
     </li>
 
     <li>
-      <strong>Webマーケティング業務</strong><br>
-      Google AnalyticsやSEOツールを用いた競合調査・改善提案・広告運用まで幅広く対応。
+      <strong>マーケティング業務</strong><br>
+      GA4やahrefsなどを用いた競合調査・改善提案・広告運用まで幅広く対応。
       <ul>
-        <li>使用ツール：Google Analytics / Search Console / ahrefs / ubersuggest</li>
-        <li>レポートや改善提案書の作成 → リニューアルディレクションにつなげる</li>
+        <li>レポート作成、改善提案書作成からリニューアルディレクションへの提案
+        <a href="https://drive.google.com/drive/folders/1zI9YlOzoc-_4rG8gsx6Zcoylb5I8c4lq?usp=sharing" target="_blank">（提案資料）</a>
+        </li>
         <li>広告媒体：Google・Yahoo!リスティング／ディスプレイ広告</li>
         <li>ECサイト広告にてROAS 300%を維持</li>
       </ul>
@@ -54,20 +55,21 @@
     <li>
       <strong>その他の実績</strong>
       <ul>
-        <li>2021年12月、Google広告にてCVR 1.7%改善（前年同月比）</li>
-        <li>社内標準化：テスト修正依頼用シートを独自作成・チーム内で導入</li>
+        <li>Google広告にてCVR 1.7%改善（前年同月比）</li>
+        <li>制作のテスト検証において必要な修正指示書を社内マニュアルとして独自作成。</li>
         <li>自社メディア改善：SEO構造ガイド作成 → 3ヶ月で15%アクセス増（YoY）</li>
-        <li><a href="https://drive.google.com/drive/folders/1zI9YlOzoc-_4rG8gsx6Zcoylb5I8c4lq?usp=sharing" target="_blank">マーケ資料ポートフォリオ</a></li>
       </ul>
     </li>
   </ul>
 
   <h3>ポイント</h3>
   <div class="point_container">
-      <div class="point_item">新規開拓</div>
-      <div class="point_item">展示会企画</div>
-      <div class="point_item">技術営業</div>
-      <div class="point_item">組込み開発ディレクション</div>
+    <div class="point_item">Webディレクター（Laravel）</div>
+    <div class="point_item">Webシステム開発の要件定義</div>
+    <div class="point_item">KWマーケ（SEO対策）</div>
+    <div class="point_item">データ分析（GA4やahrefs）</div>
+    <div class="point_item">リスティング広告運用</div>
+    <div class="point_item">githubへのpush</div>
 
   <!-- <p>
     ディレクターとして制作工程を一気通貫で担当しつつ、Webマーケターとして分析・改善も主導。

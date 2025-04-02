@@ -14,7 +14,7 @@
     <h1>カレント自動車株式会社<br>
       <span class="start_end">@include('components.year', ['target' => 'current'])</span>
     </h1>
-    <h2>中古車買取・販売／IT部門ディレクション・SEO改善</h2>
+    <h2>全システム開発ディレクション／SEO改善／データ分析／インフラ保守運用</h2>
 
 <div class="content">
   <h3>仕事内容</h3>
@@ -66,13 +66,21 @@
   </ul>
 
   <h3>ポイント</h3>
-  <p>
+    <div class="point_container">
+      <div class="point_item">Webディレクター（Laravel）</div>
+      <div class="point_item">社内システムの保守サポート</div>
+      <div class="point_item">DB型SEO改善</div>
+      <div class="point_item">データ分析（GA4、ahrefs、サチコン）</div>
+      <div class="point_item">リスティング広告運用</div>
+      <div class="point_item">githubへのpush</div>
+    </div>
+  <!-- <p>
     退職者が相次ぎ、1/4以下に縮小したチーム環境において、運用から改善まで多岐にわたる業務を支援。
     <br>
     組織の崩壊を防ぐためのディレクション、技術ドキュメント整備、施策管理体制構築を並行して遂行。
     <br>
     27歳前後の若手中心チームで、調整役・推進役としてチームの機能維持に貢献。
-  </p>
+  </p> -->
 </div>
 @include('components.job_historymenu')
 </body>
