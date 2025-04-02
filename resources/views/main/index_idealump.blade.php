@@ -22,9 +22,6 @@
     Webサイト制作におけるディレクション業務と、Google Analyticsなどを用いたWebマーケティング業務を兼務。
   </p>
 
-  <h3>営業スタイル</h3>
-  <p>ディレクション業務・データ分析を元にした改善提案型マーケティング</p>
-
   <h3>クライアント</h3>
   <p>企業サイト運営会社、EC事業者など</p>
 
@@ -33,9 +30,8 @@
     <li>
       <strong>ディレクション業務</strong><br>
       新規Webサイト制作および既存サイトの機能追加における要件定義・ワイヤー作成・画面設計・進行管理などを担当。
-      <ul>
-        <li><a href="https://shisaly.com/" target="_blank">shisaly.com</a>：Laravelを用いたフルスクラッチ案件（予算3,000万円）</li>
-        <li><a href="https://rabostar.com/" target="_blank">rabostar.com</a>：ASP・PHPによるスクラッチ開発（予算4,000万円）</li>
+        <li><a href ="{{ route('outbound.redirect', ['key' => 'shisaly']) }}" target="_blank" rel="nofollow" >shisaly.com</a>：Laravelを用いたフルスクラッチ案件（予算3,000万円）</li>
+        <li><a href ="{{ route('outbound.redirect', ['key' => 'rabostar']) }}" target="_blank" rel="nofollow" >rabostar.com</a>：ASP・PHPによるスクラッチ開発（予算4,000万円）</li>
         <li>UI/UXを考慮した機能要件の仕様確定・デザイン確定・DBロジック連携</li>
       </ul>
     </li>

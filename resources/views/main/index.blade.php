@@ -58,7 +58,7 @@
                         </div>
                         <div class="info-row">
                             <div class="label">ハードスキル</div>
-                            <div class="value">GA4 / Search Console / ahrefs / PHP Laravel / Python / GPTプログラミング / Figma / AWS (少々) / Xserver / Officeソフト</div>
+                            <div class="value">GA4 / Search Console / ahrefs / Clarity / PHP Laravel / Python / GPTプログラミング / Figma / AWS (少々) / Xserver / Officeソフト</div>
                         </div>
                         <div class="info-row">
                             <div class="label">ポートフォリオ</div>

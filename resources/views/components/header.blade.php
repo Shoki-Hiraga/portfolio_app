@@ -2,7 +2,7 @@
 <meta charset="UTF-8">
 <link rel="stylesheet" href="{{ asset('/css/style.css') }}">
 <link rel="stylesheet" href="{{ asset('/css/profile_card.css') }}">
-<link rel="stylesheet" href="{{ asset('/css/job_history.css') }}">
+<link rel="stylesheet" href="{{ asset('/css/link.css') }}">
 @include('components.breadcrumb')
 
 <!-- Google Tag Manager -->

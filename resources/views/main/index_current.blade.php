@@ -14,21 +14,36 @@
     <h1>カレント自動車株式会社<br>
       <span class="start_end">@include('components.year', ['target' => 'current'])</span>
     </h1>
-    <h2>全システム開発ディレクション／SEO改善／データ分析／インフラ保守運用</h2>
+    <h2>全システム開発ディレクション／SEO対策／データ分析／インフラ保守運用</h2>
 
 <div class="content">
   <h3>仕事内容</h3>
   <p>
-    Webサイトエンハンス開発のPM、SEO設計、オウンドメディア運営、リスティング広告運用、インフラの簡易保守など。
+    Webサイトエンハンス開発のPM、テクニカルSEOの改修、オウンドメディア施策設計、リスティング広告運用、インフラの簡易保守など。
     <br>
-    PM／ディレクション／マーケティング／マネジメント業務を兼務。
+    PM／開発ディレクション／SEM／マネジメント業務を兼務。
   </p>
 
   <h3>営業スタイル</h3>
   <p>社内外調整・施策実装中心の開発ディレクションとSEO・広告分析に基づく改善提案</p>
 
-  <h3>クライアント</h3>
-  <p>自社運営サイトの社内クライアント（例：旧車王、ガレージカレントCamp、ユーロオート）</p>
+  <h3>担当プロダクト</h3>
+  <ul>
+    <li><a href ="{{ route('outbound.redirect', ['key' => 'currentmotor']) }}" target="_blank" rel="nofollow" >コーポレートサイト</a><br></li>
+    <li><a href="{{ route('outbound.redirect', ['key' => 'qshaoh']) }}" target="_blank" rel="nofollow">旧車王（中古車査定申込サイト）</a><br></li>
+    <li><a href="{{ route('outbound.redirect', ['key' => 'garagecurrent']) }}" target="_blank" rel="nofollow">中古車販売サイト</a><br></li>
+    <li><a href="{{ route('outbound.redirect', ['key' => 'directgarage']) }}" target="_blank" rel="nofollow">中古車販売サイト（LPのみ）</a><br></li>
+    <li><a href="{{ route('outbound.redirect', ['key' => 'campgarage']) }}" target="_blank" rel="nofollow">中古キャンプカー販売サイト</a><br></li>
+    <li><a href="{{ route('outbound.redirect', ['key' => 'currenttech']) }}" target="_blank" rel="nofollow">整備センター受付サイト</a><br></li>
+    <li><a href="{{ route('outbound.redirect', ['key' => 'euroauto']) }}" target="_blank" rel="nofollow">部品販売ECサイト</a><br></li>
+    <li><a href="{{ route('outbound.redirect', ['key' => 'icin']) }}" target="_blank" rel="nofollow">輸入車整備FC本部サイト</a><br></li>
+    <li><a href="{{ route('outbound.redirect', ['key' => 'drimportcar']) }}" target="_blank" rel="nofollow">輸入車整備FC集客サイト</a><br></li>
+    <li><a href="{{ route('outbound.redirect', ['key' => 'sportscarlab']) }}" target="_blank" rel="nofollow">スポーツカーラボ（中古車査定申込サイト）</a><br></li>
+    <li><a href="{{ route('outbound.redirect', ['key' => 'gaishaoh']) }}" target="_blank" rel="nofollow">外車王（外車査定申込サイト）</a><br></li>
+    <li>AWSのログ監視（簡易保守運用）<br></li>
+    <li>Xserverの保守運用<br></li>
+    <li>基幹システム（セールスフォース）のシステムサポート<br></li>
+</ul>
 
   <h3>実績</h3>
   <ul>
@@ -67,12 +82,12 @@
 
   <h3>ポイント</h3>
     <div class="point_container">
-      <div class="point_item">Webディレクター（Laravel）</div>
-      <div class="point_item">社内システムの保守サポート</div>
-      <div class="point_item">DB型SEO改善</div>
-      <div class="point_item">データ分析（GA4、ahrefs、サチコン）</div>
-      <div class="point_item">リスティング広告運用</div>
-      <div class="point_item">githubへのpush</div>
+      <div class="point_item">プロダクトマネージャー</div>
+      <div class="point_item">Webディレクター</div>
+      <div class="point_item">データ分析</div>
+      <div class="point_item">インフラ保守</div>
+      <div class="point_item">DB型SEO対策</div>
+      <div class="point_item">全社内システム対応</div>
     </div>
   <!-- <p>
     退職者が相次ぎ、1/4以下に縮小したチーム環境において、運用から改善まで多岐にわたる業務を支援。

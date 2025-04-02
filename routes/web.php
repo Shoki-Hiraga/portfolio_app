@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PythonController;
 use App\Http\Controllers\FormController;
+use App\Http\Controllers\OutboundLinkController;
 
 /*
 |--------------------------------------------------------------------------
@@ -43,3 +44,4 @@ Route::get('/about', function () {
 
 Route::get('/form', [FormController::class, 'showForm'])->name('form');
 Route::post('/form', [FormController::class, 'submitForm']);
+Route::get('/out/{key}', [OutboundLinkController::class, 'redirect'])->name('outbound.redirect');
