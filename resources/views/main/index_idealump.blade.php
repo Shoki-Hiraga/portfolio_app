@@ -58,6 +58,18 @@
     </li>
   </ul>
 
+    <li>
+        <strong>工夫した業務</strong>
+        <ul>
+          <li>とにかくデバッグ管理での抜け漏れを仕組で減らすこと。</li>
+          <li>webシステムの仕組を理解してエンジニアとのコミュニケーションをスムーズにすること。</li>
+          <li>SEO的に優れたWebサイトを作れるよう、インプットを怠らないこと。</li>
+          <img src="{{ asset('images/shisaly_td.png') }}" alt="スプレッドシートの管理画像" class="top_image">
+          <img src="{{ asset('images/shisaly_prj_manage.png') }}" alt="スプレッドシートのTD定義画像" class="top_image">
+        </ul>
+      </li>
+    </ul>
+
   <h3>ポイント</h3>
   <div class="point_container">
     <div class="point_item">Webディレクター（Laravel）</div>

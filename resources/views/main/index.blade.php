@@ -78,11 +78,11 @@
                         </div>
                         <div class="info-row">
                             <div class="label">やりたいこと</div>
-                            <div class="value">ディレクターやPdMとしてのマネジメント力、Webシステムの理解力とSEOへの理解力の3つを活かして、Webサイトの開発に携わっていきたい。</div>
+                            <div class="value">ディレクターやPdMとしての管理進行、Webシステムの理解、とSEOへの知見の3つを活かして、Webサイトの開発に携わっていきたい。</div>
                         </div>
                         <div class="info-row message">
                             <div class="label">将来の夢</div>
-                            <div class="value">Webプロダクトの拡大を通して、ビジネスの拡大に携わりたい。</div>
+                            <div class="value">Webプロダクトの開発進行管理を通して、Webプロダクトの拡大に繋げ、結果としてビジネスの拡大に携わりたい。</div>
                         </div>
                     </div>
                 </div>

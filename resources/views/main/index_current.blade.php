@@ -19,13 +19,10 @@
 <div class="content">
   <h3>仕事内容</h3>
   <p>
-    Webサイトエンハンス開発のPM、テクニカルSEOの改修、オウンドメディア施策設計、リスティング広告運用、インフラの簡易保守など。
+    Webサイトエンハンス開発のPM、テクニカルSEOの改修、オウンドメディア施策設計、リスティング広告運用、インフラの簡易保守、社内外調整・施策実装中心の開発ディレクションなど。
     <br>
-    PM／開発ディレクション／SEM／マネジメント業務を兼務。
+    PdM／開発ディレクション／SEM／マネジメント業務を兼務。
   </p>
-
-  <h3>営業スタイル</h3>
-  <p>社内外調整・施策実装中心の開発ディレクションとSEO・広告分析に基づく改善提案</p>
 
   <h3>担当プロダクト</h3>
   <ul>
@@ -86,6 +83,19 @@
       </ul>
     </li>
   </ul>
+
+  <li>
+        <strong>工夫した業務</strong>
+        <ul>
+          <li>テクニカルSEO、Search Engineを意識したクエリの実装</li>
+          <li>持続的な開発が出来るよう自身がよりエンジニアに近い領域の業務を担当すること</li>
+          <li>社内全体でクリエイターの工数が管理できて効率良く開発業務を進めること</li>
+          <img src="{{ asset('images/purchase_result_data_short.png') }}" alt="買取実績データのワイヤー" class="top_image">
+          <!-- <img src="{{ asset('images/purchase_result_data.png') }}" alt="買取実績データのワイヤー" class="top_image"> -->
+          <img src="{{ asset('images/dynamic_noindex.png') }}" alt="動的noindexのコード" class="top_image">
+        </ul>
+      </li>
+    </ul>
 
   <h3>ポイント</h3>
     <div class="point_container">
