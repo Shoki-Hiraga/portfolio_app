@@ -97,7 +97,6 @@
             </div>
         </ul>
       </li>
-    </ul>
 
   <h3>ポイント</h3>
     <div class="point_container">
@@ -116,6 +115,6 @@
     27歳前後の若手中心チームで、調整役・推進役としてチームの機能維持に貢献。
   </p> -->
 </div>
-@include('components.job_historymenu')
+@include('components.job_historymenu_v2')
 </body>
 </html>

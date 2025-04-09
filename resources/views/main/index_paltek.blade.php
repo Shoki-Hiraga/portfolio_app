@@ -77,6 +77,6 @@
     特に2017年以降は技術支援営業として、技術サポートやIoTの組込み開発ディレクションを担い、社内を横断的に動く。
   </p> -->
 </div>
-@include('components.job_historymenu')
+@include('components.job_historymenu_v2')
 </body>
 </html>

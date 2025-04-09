@@ -111,7 +111,7 @@
                         @include('components.web_link', ['target' => 'carprice'])の構成図
                     </h3>
                     <img src="{{ asset('images/market_price.png') }}" alt="Webサイトの設計" class="top_image"> -->
-            @include('components.job_historymenu')
+            @include('components.job_historymenu_v2')
         </div>
     </body>
 </html>

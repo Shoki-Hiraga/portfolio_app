@@ -89,6 +89,6 @@
     データ分析に基づいた提案型の広告運用やSEO施策が強み。
   </p> -->
 </div>
-@include('components.job_historymenu')
+@include('components.job_historymenu_v2')
 </body>
 </html>
