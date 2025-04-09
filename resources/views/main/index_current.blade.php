@@ -90,9 +90,11 @@
           <li>テクニカルSEO、Search Engineを意識したクエリの実装</li>
           <li>持続的な開発が出来るよう自身がよりエンジニアに近い領域の業務を担当すること</li>
           <li>社内全体でクリエイターの工数が管理できて効率良く開発業務を進めること</li>
-          <img src="{{ asset('images/purchase_result_data_short.png') }}" alt="買取実績データのワイヤー" class="top_image">
-          <!-- <img src="{{ asset('images/purchase_result_data.png') }}" alt="買取実績データのワイヤー" class="top_image"> -->
-          <img src="{{ asset('images/dynamic_noindex.png') }}" alt="動的noindexのコード" class="top_image">
+            <div class=image_container>
+              <img src="{{ asset('images/purchase_result_data_short.png') }}" alt="買取実績データのワイヤー" class="prof_image">
+              <!-- <img src="{{ asset('images/purchase_result_data.png') }}" alt="買取実績データのワイヤー" class="prof_image"> -->
+              <img src="{{ asset('images/dynamic_noindex.png') }}" alt="動的noindexのコード" class="prof_image">
+            </div>
         </ul>
       </li>
     </ul>

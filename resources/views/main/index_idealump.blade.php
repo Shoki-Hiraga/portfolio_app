@@ -64,8 +64,10 @@
           <li>とにかくデバッグ管理での抜け漏れを仕組で減らすこと。</li>
           <li>webシステムの仕組を理解してエンジニアとのコミュニケーションをスムーズにすること。</li>
           <li>SEO的に優れたWebサイトを作れるよう、インプットを怠らないこと。</li>
-          <img src="{{ asset('images/shisaly_td.png') }}" alt="スプレッドシートの管理画像" class="top_image">
-          <img src="{{ asset('images/shisaly_prj_manage.png') }}" alt="スプレッドシートのTD定義画像" class="top_image">
+          <div class=image_container>
+            <img src="{{ asset('images/shisaly_td.png') }}" alt="スプレッドシートの管理画像" class="prof_image">
+            <img src="{{ asset('images/shisaly_prj_manage.png') }}" alt="スプレッドシートのTD定義画像" class="prof_image">
+          </div>
         </ul>
       </li>
     </ul>
