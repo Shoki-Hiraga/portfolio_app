@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-@include('components.noindex')
-@include('components.header')
+  @include('components.noindex')
+  @include('components.header')
 
 
 <title>
