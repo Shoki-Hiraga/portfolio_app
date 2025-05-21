@@ -85,18 +85,31 @@
   </ul>
 
   <li>
-        <strong>工夫した業務</strong>
-        <ul>
-          <li>テクニカルSEO、Search Engineを意識したクエリの実装</li>
-          <li>持続的な開発が出来るよう自身がよりエンジニアに近い領域の業務を担当すること</li>
-          <li>社内全体でクリエイターの工数が管理できて効率良く開発業務を進めること</li>
-            <div class=image_container>
-              <img src="{{ asset('images/purchase_result_data_short.png') }}" alt="買取実績データのワイヤー" class="prof_image">
-              <!-- <img src="{{ asset('images/purchase_result_data.png') }}" alt="買取実績データのワイヤー" class="prof_image"> -->
-              <img src="{{ asset('images/dynamic_noindex.png') }}" alt="動的noindexのコード" class="prof_image">
-            </div>
-        </ul>
-      </li>
+      <strong>工夫した業務</strong><br>
+      メンバー育成・チーム最適化・開発支援体制の構築。
+      <ul>
+        <li>テクニカルSEO、Search Engineを意識したクエリの実装</li>
+        <li>持続的な開発が出来るよう自身がよりエンジニアに近い領域の業務を担当すること</li>
+        <li>社内全体でクリエイターの工数が管理できて効率良く開発業務を進めること</li>
+      </ul>
+    </li>
+  </ul>
+ 
+  <p>動的noindexの要件定義</p>
+    <div class=image_container>
+      <img src="{{ asset('images/purchase_result_data_short.png') }}" alt="買取実績データのワイヤー" class="prof_image">
+      <!-- <img src="{{ asset('images/purchase_result_data.png') }}" alt="買取実績データのワイヤー" class="prof_image"> -->
+      <img src="{{ asset('images/dynamic_noindex.png') }}" alt="動的noindexのコード" class="prof_image">
+    </div>
+
+    <p>オウンドメディアを除く全動的ページ</p>
+      <img src="{{ asset('images/GSC_historia_exclusion.png') }}" alt="Search Consoleデータ" class="prof_image_gsc">
+    <p>主要CVページ（車種情報ページ）</p>
+      <img src="{{ asset('images/GSC_maker_include.png') }}" alt="Search Consoleデータ" class="prof_image_gsc">
+    <p>買取実績のみページ（詳細ページを新規実装）</p>
+      <img src="{{ asset('images/GSC_result_include.png') }}" alt="Search Consoleデータ" class="prof_image_gsc">
+    <p>買取口コミページ</p>
+      <img src="{{ asset('images/GSC_usersvoice_include.png') }}" alt="Search Consoleデータ" class="prof_image_gsc">
 
   <h3>ポイント</h3>
     <div class="point_container">

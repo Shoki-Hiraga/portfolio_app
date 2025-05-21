@@ -121,6 +121,13 @@ body {
     object-fit: contain; /* 中央を切り取ってフィットさせる */
     box-sizing: border-box;
   }
+  .prof_image_gsc {
+    width: calc(100% - 11px);
+    height: auto; /* ← お好みの固定高さ */
+    object-fit: contain; /* 中央を切り取ってフィットさせる */
+    box-sizing: border-box;
+  }
+  
   
   
   /* スマホ対応 */
