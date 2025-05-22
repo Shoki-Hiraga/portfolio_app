@@ -43,7 +43,12 @@
 </ul>
 
   <h3>実績</h3>
-  <ul>
+  <div class="notion_link">
+    <strong>
+        <a href="https://www.notion.so/1fb20fbb3a0c80558c68f60ca29588a2" target="_blank" rel="nofollow"> 要件定義notion </a>
+    </strong>
+  </div>
+    <ul>
     <li>
       <strong>PM／ディレクション業務</strong><br>
       Webサイトの保守～エンハンス開発を担当。ワイヤー作成、仕様策定、技術面の1次対応も兼務。
@@ -97,19 +102,21 @@
  
   <p>動的noindexの要件定義</p>
     <div class=image_container>
-      <img src="{{ asset('images/purchase_result_data_short.png') }}" alt="買取実績データのワイヤー" class="prof_image">
-      <!-- <img src="{{ asset('images/purchase_result_data.png') }}" alt="買取実績データのワイヤー" class="prof_image"> -->
-      <img src="{{ asset('images/dynamic_noindex.png') }}" alt="動的noindexのコード" class="prof_image">
+      <img src="{{ asset('images/currentmotor/purchase_result_data_short.png') }}" alt="買取実績データのワイヤー" class="prof_image">
+      <!-- <img src="{{ asset('images/currentmotor/purchase_result_data.png') }}" alt="買取実績データのワイヤー" class="prof_image"> -->
+      <img src="{{ asset('images/currentmotor/dynamic_noindex.png') }}" alt="動的noindexのコード" class="prof_image">
     </div>
 
+  <h3>Search Consoleデータでの実績</h3>
+
     <p>オウンドメディアを除く全動的ページ</p>
-      <img src="{{ asset('images/GSC_historia_exclusion.png') }}" alt="Search Consoleデータ" class="prof_image_gsc">
+      <img src="{{ asset('images/currentmotor/GSC_historia_exclusion.png') }}" alt="Search Consoleデータ" class="prof_image_gsc">
     <p>主要CVページ（車種情報ページ）</p>
-      <img src="{{ asset('images/GSC_maker_include.png') }}" alt="Search Consoleデータ" class="prof_image_gsc">
+      <img src="{{ asset('images/currentmotor/GSC_maker_include.png') }}" alt="Search Consoleデータ" class="prof_image_gsc">
     <p>買取実績のみページ（詳細ページを新規実装）</p>
-      <img src="{{ asset('images/GSC_result_include.png') }}" alt="Search Consoleデータ" class="prof_image_gsc">
+      <img src="{{ asset('images/currentmotor/GSC_result_include.png') }}" alt="Search Consoleデータ" class="prof_image_gsc">
     <p>買取口コミページ</p>
-      <img src="{{ asset('images/GSC_usersvoice_include.png') }}" alt="Search Consoleデータ" class="prof_image_gsc">
+      <img src="{{ asset('images/currentmotor/GSC_usersvoice_include.png') }}" alt="Search Consoleデータ" class="prof_image_gsc">
 
   <h3>ポイント</h3>
     <div class="point_container">

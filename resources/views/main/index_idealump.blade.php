@@ -30,9 +30,93 @@
     <li>
       <strong>ディレクション業務</strong><br>
       新規Webサイト制作および既存サイトの機能追加における要件定義・ワイヤー作成・画面設計・進行管理などを担当。
-        <li><a href ="{{ route('outbound.redirect', ['key' => 'shisaly']) }}" target="_blank" rel="nofollow" >shisaly.com</a>：Laravelを用いたフルスクラッチ案件（予算3,000万円）</li>
-        <li><a href ="{{ route('outbound.redirect', ['key' => 'rabostar']) }}" target="_blank" rel="nofollow" >rabostar.com</a>：ASP・PHPによるスクラッチ開発（予算4,000万円）</li>
-        <li>UI/UXを考慮した機能要件の仕様確定・デザイン確定・DBロジック連携</li>
+        <li><a href ="{{ route('outbound.redirect', ['key' => 'shisaly']) }}" target="_blank" rel="nofollow" >shisaly.com</a>：Laravelを用いたフルスクラッチ案件</li>
+        <div class=image_container>
+          <img src="{{ asset('images/idealump/SP_shisaly.png') }}" alt="ShisalyのSP画面" class="prof_image">
+
+          <table class="dir-point" border="1">
+            <thead>
+              <tr>
+                <th>項目</th>
+                <th>内容</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>予算</td>
+                <td>3,000万円</td>
+              </tr>
+              <tr>
+                <td>ディレクター</td>
+                <td>1名</td>
+              </tr>
+              <tr>
+                <td>デザイナー</td>
+                <td>1名</td>
+              </tr>
+              <tr>
+                <td>コーダー</td>
+                <td>2名</td>
+              </tr>
+              <tr>
+                <td>エンジニア</td>
+                <td>海外拠点2名、社内1名</td>
+              </tr>
+              <tr>
+                <td>ポイント</td>
+                <td>
+                  予算が少ない中サービスをローンチ<br>をするに当たって、予算に合わせつつ<br>最小限の機能を実装してリリース。<br>
+                  クライアントへは丁寧に説明をする<br>ことで、
+                </td>
+                </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <br>
+        <li><a href ="{{ route('outbound.redirect', ['key' => 'rabostar']) }}" target="_blank" rel="nofollow" >rabostar.com</a>：ASP・PHPによるスクラッチ開発</li>
+        <div class=image_container>
+          <img src="{{ asset('images/idealump/SP_rabostar.png') }}" alt="ShisalyのSP画面" class="prof_image">
+
+          <table class="dir-point" border="1">
+            <thead>
+              <tr>
+                <th>項目</th>
+                <th>内容</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>予算</td>
+                <td>5,000万円</td>
+              </tr>
+              <tr>
+                <td>ディレクター</td>
+                <td>2名</td>
+              </tr>
+              <tr>
+                <td>デザイナー</td>
+                <td>1名</td>
+              </tr>
+              <tr>
+                <td>コーダー</td>
+                <td>2名</td>
+              </tr>
+              <tr>
+                <td>エンジニア</td>
+                <td>社内2名</td>
+              </tr>
+              <tr>
+                <td>ポイント</td>
+                <td>
+                  ECシステム、カートシステム、試着<br>システムの構築、SEO対策の実装で<br>退職者も出る中折衝をしながら炎上<br>せずにリリース。
+                  <br>
+                  そのまま広告運用まで担当し、クリ<br>エイティブの差替えで前任の代理<br>店よりCVRを1.7%改善。
+                </td>
+                </tr>
+            </tbody>
+          </table>
+        </div>
       </ul>
     </li>
 
@@ -41,7 +125,10 @@
       GA4やahrefsなどを用いた競合調査・改善提案・広告運用まで幅広く対応。
       <ul>
         <li>レポート作成、改善提案書作成からリニューアルディレクションへの提案
-        <a href="https://drive.google.com/drive/folders/1zI9YlOzoc-_4rG8gsx6Zcoylb5I8c4lq?usp=sharing" target="_blank">（提案資料）</a>
+          <br>
+          <a href="https://drive.google.com/file/d/1Pdu6zjgnvW-effyNPM3B3vQjYbgYIVKf/view?usp=drive_link" target="_blank">提案資料1</a>
+          <br>
+          <a href="https://drive.google.com/file/d/1_DpwRSVWWuS7qD1hCghrX_uSIV2m3q0H/view?usp=drive_link" target="_blank">提案資料2</a>
         </li>
         <li>広告媒体：Google・Yahoo!リスティング／ディスプレイ広告</li>
         <li>ECサイト広告にてROAS 300%を維持</li>
@@ -65,8 +152,8 @@
           <li>webシステムの仕組を理解してエンジニアとのコミュニケーションをスムーズにすること。</li>
           <li>SEO的に優れたWebサイトを作れるよう、インプットを怠らないこと。</li>
           <div class=image_container>
-            <img src="{{ asset('images/shisaly_td.png') }}" alt="スプレッドシートの管理画像" class="prof_image">
-            <img src="{{ asset('images/shisaly_prj_manage.png') }}" alt="スプレッドシートのTD定義画像" class="prof_image">
+            <img src="{{ asset('images/idealump/shisaly_td.png') }}" alt="スプレッドシートの管理画像" class="prof_image">
+            <img src="{{ asset('images/idealump/shisaly_prj_manage.png') }}" alt="スプレッドシートのTD定義画像" class="prof_image">
           </div>
         </ul>
       </li>
