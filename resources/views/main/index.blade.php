@@ -71,7 +71,7 @@
                 </div>
             </div>
             <h2>スキルチャート</h2>
-            @include('components.skillchart')
+            @include('components.chart.skillchart')
             <!-- <img src="{{ asset('images/スキルチャート.png') }}" alt="平賀翔貴" class="top_image"> -->
 
 

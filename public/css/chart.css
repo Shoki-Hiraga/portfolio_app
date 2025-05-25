@@ -1,0 +1,13 @@
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* ← 横中央寄せ */
+    justify-content: center;
+    gap: 40px;
+    padding: 40px 0;
+  }
+
+  .chart-canvas {
+    display: block;
+    margin: 0 auto; /* 念のための中央寄せ補強 */
+  }

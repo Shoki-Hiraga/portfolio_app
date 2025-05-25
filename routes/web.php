@@ -38,6 +38,10 @@ Route::get('/current', function () {
     return view('main.index_current');
 })->name('mp_current');
 
+Route::get('/current/result', function () {
+    return view('main.result_current');
+})->name('mp_result');
+
 Route::get('/about', function () {
     return view('main.about');
 })->name('mp_about');

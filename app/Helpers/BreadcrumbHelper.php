@@ -24,6 +24,11 @@ class BreadcrumbHelper
             'mp_current' => [
                 ['name' => 'カレント自動車株式会社', 'url' => route('mp_current')],
             ],
+            // ↓ パンくずにカレント自動車を表示したい
+            'mp_result' => [
+                ['name' => 'カレント自動車株式会社', 'url' => route('mp_current')],
+                ['name' => 'カレント自動車_SEO実績', 'url' => route('mp_result')],
+            ],
             'mp_about' => [
                 ['name' => 'About', 'url' => route('mp_about')],
             ],
