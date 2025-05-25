@@ -54,7 +54,7 @@
 
   <h3 class="chart-center">旧車王ヒストリア：Search Console 25年ルール記事</h3>
     <div class="box-chart-wrapper">
-      <p>過去バズった、旧車25年ルール記事をテンプレート化、トピッククラスター型で車種毎の記事を量産。Google Discoverで定期的に流入増で、<span class="chart-red">200%ほど認知拡大に貢献</span>。</p>
+      <p>過去バズった、旧車25年ルール記事をテンプレート化、トピッククラスター型で車種毎の記事を量産。Google Discoverで定期的に流入増で、運用開始から<span class="chart-red">200%ほど認知拡大に貢献</span>。</p>
         <img src="{{ asset('images/currentmotor/historia_25year_rule.png') }}" alt="Search Consoleデータ" class="prof_image_gsc">
     </div>
 

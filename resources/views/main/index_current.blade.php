@@ -36,10 +36,12 @@
     <ul>
     <li>
       <strong>PM／ディレクション業務</strong><br>
+      システム開発に関わる業務全般を広く担当。
       <ul>
         <li>見込み数値の算出、PDCA基盤構築</li>
         <li>仕様策定</li>
         <li>システム / デザイン要件定義</li>
+        <li>スケジュール管理 / 開発進行</li>
           <div class="current_result_link">
             <strong>
                 <a href="https://www.notion.so/1fb20fbb3a0c80558c68f60ca29588a2" target="_blank" rel="nofollow"> 要件定義ドキュメント </a>
@@ -50,9 +52,9 @@
 
     <li>
       <strong>Webマーケティング業務</strong><br>
-      GA4・Search Console・ahrefsなどを使用したデータ分析と広告運用。
+      GA4・Search Console・ahrefsなどを使用したデータ分析。
       <ul>
-        <li>記事型SEOコンテンツのディレクションによる流入増</li>
+        <li>記事型SEOコンテンツ施策設計による流入増</li>
         <li>DB型SEOの対策、およびシステム設計</li>
           <div class="current_result_link">
             <strong>
@@ -66,7 +68,7 @@
             ：コアアップデートで下落していた順位を、下落前まで回復させ、詳細ページの新規実装でYoYで<span class="chart-red">CV数500%改善</span>。
             </li>
             <li><a href="{{ route('outbound.redirect', ['key' => 'qshaoh_historia']) }}" target="_blank" rel="nofollow">旧車王ヒストリア</a>
-            ：過去バズった記事をテンプレート化、トピッククラスター型で記事を増やし、<span class="chart-red">200%ほど認知拡大</span>に貢献。
+            ：過去バズった記事をテンプレート化、トピッククラスター型で記事を増やし、運用開始から<span class="chart-red">200%ほど認知拡大</span>に貢献。
             </li>
             <li><a href="{{ route('outbound.redirect', ['key' => 'campgarage_media']) }}" target="_blank" rel="nofollow">ガレキャン通信</a>
             ：Webライターさんと協議しならがKWを選定し、書いた記事の<span class="chart-red">ザックリ70%程度は上位10位圏内</span>をマーク。
