@@ -42,6 +42,10 @@ Route::get('/current/result', function () {
     return view('main.result_current');
 })->name('mp_result');
 
+Route::get('/current/result/all', function () {
+    return view('main.result_current_all');
+})->name('mp_result_all');
+
 Route::get('/about', function () {
     return view('main.about');
 })->name('mp_about');

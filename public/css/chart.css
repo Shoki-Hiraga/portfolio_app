@@ -29,3 +29,7 @@
 h3.chart-center {
   text-align: center;
 }
+
+.chart-red {
+  background-color: #ffe5e5; /* 薄い赤 */
+}

@@ -25,10 +25,11 @@
   <h3>主な担当プロダクト</h3>
   <ul>
     <li><a href="{{ route('outbound.redirect', ['key' => 'qshaoh']) }}" target="_blank" rel="nofollow">旧車王（中古車査定申込サイト）</a><br></li>
-    <li><a href="{{ route('outbound.redirect', ['key' => 'campgarage']) }}" target="_blank" rel="nofollow">中古キャンプカー販売サイト</a><br></li>
-    <li><a href="{{ route('outbound.redirect', ['key' => 'euroauto']) }}" target="_blank" rel="nofollow">部品販売ECサイト</a><br></li>
+    <li><a href="{{ route('outbound.redirect', ['key' => 'qshaoh_historia']) }}" target="_blank" rel="nofollow">旧車王ヒストリア（旧車専門メディア）</a><br></li>
+    <li><a href="{{ route('outbound.redirect', ['key' => 'campgarage']) }}" target="_blank" rel="nofollow">ガレージカレントCamp（中古キャンプカー販売サイト）</a><br></li>
     <li>その他8プロダクトほどのサーバー含めた運用</li>
   </ul>
+        <img src="{{ asset('images/currentmotor/main_product.png') }}" alt="Search Consoleデータ" class="prof_image_gsc">
 
   <h3>実績</h3>
 
@@ -36,16 +37,14 @@
     <li>
       <strong>PM／ディレクション業務</strong><br>
       <ul>
-        <li>見込み数値の算出</li>
+        <li>見込み数値の算出、PDCA基盤構築</li>
         <li>仕様策定</li>
         <li>システム / デザイン要件定義</li>
-          <div class="notion_link">
+          <div class="current_result_link">
             <strong>
                 <a href="https://www.notion.so/1fb20fbb3a0c80558c68f60ca29588a2" target="_blank" rel="nofollow"> 要件定義ドキュメント </a>
             </strong>
           </div>
-
-
       </ul>
     </li>
 
@@ -53,19 +52,27 @@
       <strong>Webマーケティング業務</strong><br>
       GA4・Search Console・ahrefsなどを使用したデータ分析と広告運用。
       <ul>
-        <li>SEO設計・TD調査・検索順位改善施策</li>
         <li>記事型SEOコンテンツのディレクションによる流入増</li>
         <li>DB型SEOの対策、およびシステム設計</li>
-        <a href="{{ route('mp_result') }}" target="_blank">カレント自動車_SEO実績_Search Consoleデータ</a>
+          <div class="current_result_link">
+            <strong>
+              <a href="{{ route('mp_result') }}" target="_blank">SEO実績データ</a>
+            </strong>
+          </div>
         <ul>
           <li>ポイント</li>
           <ul>
-            <li>コアアップデートで下落していた順位を、下落前まで回復。</li>
-            <li>新規実装の詳細ページでYoYでCV数600%改善</li>
+            <li><a href="{{ route('outbound.redirect', ['key' => 'qshaoh']) }}" target="_blank" rel="nofollow">旧車王</a>
+            ：コアアップデートで下落していた順位を、下落前まで回復させ、詳細ページの新規実装でYoYで<span class="chart-red">CV数500%改善</span>。
+            </li>
+            <li><a href="{{ route('outbound.redirect', ['key' => 'qshaoh_historia']) }}" target="_blank" rel="nofollow">旧車王ヒストリア</a>
+            ：過去バズった記事をテンプレート化、トピッククラスター型で記事を増やし、<span class="chart-red">200%ほど認知拡大</span>に貢献。
+            </li>
+            <li><a href="{{ route('outbound.redirect', ['key' => 'campgarage_media']) }}" target="_blank" rel="nofollow">ガレキャン通信</a>
+            ：Webライターさんと協議しならがKWを選定し、書いた記事の<span class="chart-red">ザックリ70%程度は上位10位圏内</span>をマーク。
+            </li>
           </ul>
         </ul>
-                  
-        <h1>旧車王の数字、ガレキャンのメディア数字、ヒストリアの25年ルールの数字</h1>
         <!-- <li>リスティング広告（簡易運用）を通じたCTR改善</li>
         <li>動的CTA実装によるCTR増加</li> -->
       </ul>
@@ -81,25 +88,15 @@
     </li>
   </ul>
 
-  <li>
-      <strong>工夫した業務</strong><br>
-      メンバー育成・チーム最適化・開発支援体制の構築。
-      <ul>
-        <li>テクニカルSEO、Search Engineを意識したクエリの実装</li>
-        <li>持続的な開発が出来るよう自身がよりエンジニアに近い領域の業務を担当すること</li>
-        <li>社内全体でクリエイターの工数が管理できて効率良く開発業務を進めること</li>
-      </ul>
-    </li>
-  </ul>
 
   <h3>ポイント</h3>
     <div class="point_container">
       <div class="point_item">プロダクトマネージャー</div>
       <div class="point_item">Webディレクター</div>
       <div class="point_item">Webデータ分析</div>
-      <div class="point_item">インフラ保守</div>
       <div class="point_item">DB型SEO対策</div>
       <div class="point_item">コンテンツSEO</div>
+      <div class="point_item">メンバーマネジメント</div>
     </div>
   <!-- <p>
     退職者が相次ぎ、1/4以下に縮小したチーム環境において、運用から改善まで多岐にわたる業務を支援。
