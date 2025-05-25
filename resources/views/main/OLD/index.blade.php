@@ -10,7 +10,8 @@
 <body>
     <h1>{{$python_h1}}</h1>
     <div class="history">
-        <p>
+        <p>平賀 翔貴です。
+            <br>
             昔から車が好きで、それがきっかけでDIYにハマり、今となってはWebサイトの技術にハマり、ソフトでもハードでもモノづくりが好きです。
             以下に簡単なポートフォリオや職務経歴をまとめましたので、ぜひご覧いただけますと幸いです。
         </p>
@@ -53,11 +54,27 @@
                         </div>
                         <div class="info-row">
                             <div class="label">特技</div>
-                            <div class="value">Pythonスクレイピング / スプレッドシート関数</div>
+                            <div class="value">Pythonスクレイピング/スプレッドシート関数</div>
                         </div>
                         <div class="info-row">
                             <div class="label">ハードスキル</div>
                             <div class="value">GA4 / Search Console / ahrefs / Clarity / PHP Laravel / Python / GPTプログラミング / Figma / AWS (少々) / Xserver / Officeソフト</div>
+                        </div>
+                        <div class="info-row">
+                            <div class="label">ポートフォリオ</div>
+                                <div class="value">
+                                    SEOの勉強をしたWPサイト @include('components.web_link', ['target' => '332blog'])
+                                    <br>
+                                    Webディレクターデビュー案件 @include('components.web_link', ['target' => 'shisaly'])
+                                    <br>
+                                    リニューアルと広告立上げ @include('components.web_link', ['target' => 'rabostar'])
+                                    <br>
+                                    動的SEO対策の実装や運用機能追加 @include('components.web_link', ['target' => 'qsha_oh'])
+                                    <br>
+                                    GPTを駆使して制作 @include('components.web_link', ['target' => 'carprice'])
+                                    <br>
+                                    この自己紹介サイト @include('components.web_link', ['target' => 'portfolio']) githubリンク<a href="https://github.com/Shoki-Hiraga/portfolio_app">git</a>
+                            </div>
                         </div>
                         <div class="info-row">
                             <div class="label">やりたいこと</div>
@@ -70,11 +87,6 @@
                     </div>
                 </div>
             </div>
-            <h2>スキルチャート</h2>
-            @include('components.skillchart')
-            <!-- <img src="{{ asset('images/スキルチャート.png') }}" alt="平賀翔貴" class="top_image"> -->
-
-
 
             <h2>ポートフォリオのポイント</h2>
                 <div class="self">自己開発</div>
