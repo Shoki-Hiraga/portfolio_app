@@ -25,3 +25,7 @@
     overflow-x: auto;
 
 }
+
+h3.chart-center {
+  text-align: center;
+}

@@ -19,13 +19,13 @@
     <p style="text-align: center;">
       2024年3月20日～5月20日<br>
       2025年3月20日～5月20日<br>
-      のYoY比較
     </p>
+    <h3 class="chart-center">Search Console YoY比較</h3>
 
 <div class="reslut_content">
     <div class="box-chart-wrapper">
         @include('components.chart.maker_chart')
-        <p>コアアップデートで順位が下落する中クエリを変更し、表示回数を増加。長期で見ると順位は回復傾向へ</p>
+        <p>コアアップデートで順位が下落する中クエリを変更し、表示回数を増加。2025年5月時点での順位は下落前と同水準で回復傾向へ</p>
         <img src="{{ asset('images/currentmotor/GSC_maker_include.png') }}" alt="Search Consoleデータ" class="prof_image_gsc">
     </div>
 
@@ -36,7 +36,7 @@
     </div>
     <div class="box-chart-wrapper">
       @include('components.chart.usersvoice_chart')
-      <p>コアアップデートで順位が下落する中クエリや内部リンクを最適化し、2025年5月時点での順位は回復傾向へ</p>
+      <p>コアアップデートで順位が下落する中クエリや内部リンクを最適化し、2025年5月時点での順位は下落前と同水準で回復傾向へ</p>
         <img src="{{ asset('images/currentmotor/GSC_usersvoice_include.png') }}" alt="Search Consoleデータ" class="prof_image_gsc">
     </div>
 
