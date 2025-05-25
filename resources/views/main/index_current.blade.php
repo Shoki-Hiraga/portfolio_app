@@ -56,7 +56,7 @@
         <li>SEO設計・TD調査・検索順位改善施策</li>
         <li>記事型SEOコンテンツのディレクションによる流入増</li>
         <li>DB型SEOの対策、およびシステム設計</li>
-        <a href="{{ route('mp_result') }}">カレント自動車_SEO実績</a>
+        <a href="{{ route('mp_result') }}" target="_blank">カレント自動車_SEO実績_Search Consoleデータ</a>
 
         <h1>旧車王の数字、ガレキャンのメディア数字、ヒストリアの25年ルールの数字</h1>
         <!-- <li>リスティング広告（簡易運用）を通じたCTR改善</li>
@@ -84,16 +84,6 @@
       </ul>
     </li>
   </ul>
-
-  <h3>Search Consoleデータでの実績</h3>
-    <p>オウンドメディアを除く全動的ページ</p>
-      <img src="{{ asset('images/currentmotor/GSC_historia_exclusion.png') }}" alt="Search Consoleデータ" class="prof_image_gsc">
-    <p>主要CVページ（車種情報ページ）</p>
-      <img src="{{ asset('images/currentmotor/GSC_maker_include.png') }}" alt="Search Consoleデータ" class="prof_image_gsc">
-    <p>買取実績のみページ（詳細ページを新規実装）</p>
-      <img src="{{ asset('images/currentmotor/GSC_result_include.png') }}" alt="Search Consoleデータ" class="prof_image_gsc">
-    <p>買取口コミページ</p>
-      <img src="{{ asset('images/currentmotor/GSC_usersvoice_include.png') }}" alt="Search Consoleデータ" class="prof_image_gsc">
 
   <h3>ポイント</h3>
     <div class="point_container">

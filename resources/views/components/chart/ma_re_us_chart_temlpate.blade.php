@@ -1,7 +1,3 @@
-<canvas id="makerChart" width="1000" height="500" class="chart-canvas"></canvas>
-<canvas id="resultChart" width="1000" height="500" class="chart-canvas"></canvas>
-<canvas id="usersvoiceChart" width="1000" height="500" class="chart-canvas"></canvas>
-
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script>
 function createLineChart(canvasId, label, dataSet) {
@@ -28,19 +24,19 @@ function createLineChart(canvasId, label, dataSet) {
                         display: true,
                         text: '成長率（％）',
                         font: {
-                            size: 18  // Y軸タイトルのフォントサイズ
+                            size: 20  // Y軸タイトルのフォントサイズ
                         }
                     },
                     ticks: {
                         font: {
-                            size: 14  // Y軸目盛りのフォントサイズ
+                            size: 20  // Y軸目盛りのフォントサイズ
                         }
                     }
                 },
                 x: {
                     ticks: {
                         font: {
-                            size: 14  // X軸目盛り（指標ラベル）のフォントサイズ
+                            size: 20  // X軸目盛り（指標ラベル）のフォントサイズ
                         }
                     }
                 }

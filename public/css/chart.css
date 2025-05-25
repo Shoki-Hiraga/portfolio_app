@@ -9,5 +9,19 @@
 
   .chart-canvas {
     display: block;
-    margin: 0 auto; /* 念のための中央寄せ補強 */
+    margin: 50px auto; /* 上下30px、左右中央 */
   }
+
+  .reslut_content {
+    margin-top: 50px;
+  }
+
+  .box-chart-wrapper {
+    border: 3px solid #ccc; /* 枠線の色と太さ */
+    padding: 15px;           /* 内側の余白 */
+    margin-bottom: 100px;     /* 他の要素との間隔 */
+    border-radius: 8px;      /* 角の丸み（お好みで） */
+    background-color: #ffffff; /* 背景色（任意） */
+    overflow-x: auto;
+
+}
