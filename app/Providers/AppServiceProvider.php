@@ -51,6 +51,10 @@ class AppServiceProvider extends ServiceProvider
             'qsha_oh' => [
                 'name' => '旧車王',
                 'url' => 'https://www.qsha-oh.com/'
+            ],
+            'gare_camp' => [
+                'name' => 'ガレージカレントCamp',
+                'url' => 'https://camp.garagecurrent.com/'
             ]
         ];
     

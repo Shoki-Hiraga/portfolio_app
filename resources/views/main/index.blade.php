@@ -88,8 +88,9 @@
                     <br>
                     @include('components.web_link', ['target' => 'rabostar'])：リニューアルディレクション、SEO設計、広告立上げ / 運用
                     <br>
-                    @include('components.web_link', ['target' => 'qsha_oh'])：施策設計、GA4などのデータ分析、要件定義、開発ディレクション
-
+                    @include('components.web_link', ['target' => 'qsha_oh'])：Webデータ分析、要件定義、開発ディレクション、メディア設計など
+                    <br>
+                    @include('components.web_link', ['target' => 'gare_camp'])：Webデータ分析、要件定義、開発ディレクション、メディア設計など
                     <!-- <h3>
                         <style>
                         h3 {
