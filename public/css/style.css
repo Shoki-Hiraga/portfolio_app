@@ -10,7 +10,7 @@ body {
   
   h1, h2 {
     text-align: center;
-    color: #0084ff;    
+    color: #000000;    
   }
 
   h1 {
@@ -33,11 +33,13 @@ body {
 
 
   h4, h5, h6 {
-    font-size: 22px;
+    font-size: 18px;
     color: #000000;
     margin-top: 30px;
     margin-bottom: 10px;
     text-align: left;
+    padding-left: 12px; /* お好みで調整可 */
+    border-left: 10px solid #a7d4ff;
   }
   
   p {

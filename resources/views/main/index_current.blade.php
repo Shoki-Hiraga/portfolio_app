@@ -39,7 +39,7 @@
         <li>仕様策定</li>
         <li>システム / デザイン要件定義</li>
         <li>スケジュール管理 / 開発進行</li>
-          <div class="current_result_link">
+          <div class="strong_result_link">
             <strong>
                 <a href="https://www.notion.so/1fb20fbb3a0c80558c68f60ca29588a2" target="_blank" rel="nofollow"> 要件定義ドキュメント </a>
             </strong>
@@ -53,7 +53,7 @@
       <li>DB型SEOの対策、およびシステム設計</li>
       <ul>
         <strong><li>実績</li></strong>
-          <div class="current_result_link">
+          <div class="strong_result_link">
             <strong>
               <a href="{{ route('mp_result') }}" target="_blank">SEO実績データ</a>
             </strong>
