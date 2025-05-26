@@ -48,7 +48,11 @@
                 <td>3,000万円</td>
               </tr>
               <tr>
-                <td>ディレクター</td>
+                <td>制作期間</td>
+                <td>13か月</td>
+              </tr>
+              <tr>
+                <td>PM 兼<br>ディレクター</td>
                 <td>1名</td>
               </tr>
               <tr>
@@ -62,6 +66,10 @@
               <tr>
                 <td>エンジニア</td>
                 <td>海外拠点2名、社内1名</td>
+              </tr>
+              <tr>
+                <td>担当領域</td>
+                <td>PM、ディレクション、要件定義、<br>SEOクエリ設計</td>
               </tr>
               <tr>
                 <td>ポイント</td>
@@ -89,7 +97,15 @@
             <tbody>
               <tr>
                 <td>予算</td>
-                <td>5,000万円</td>
+                <td>6,000万円</td>
+              </tr>
+              <tr>
+                <td>制作期間</td>
+                <td>8か月</td>
+              </tr>
+              <tr>
+                <td>PM</td>
+                <td>2名</td>
               </tr>
               <tr>
                 <td>ディレクター</td>
@@ -108,11 +124,17 @@
                 <td>社内2名</td>
               </tr>
               <tr>
+                <td>担当領域</td>
+                <td>PM、ディレクション、SEOクエリ<br>設計、広告立上げ・運用</td>
+              </tr>
+              <tr>
                 <td>ポイント</td>
                 <td>
-                  ECシステム、カートシステム、試着<br>システムの構築、SEO対策の実装で<br>退職者も出る中折衝をしながら炎上<br>せずにリリース。
+                  途中から要件定義、SEO対策の実装
                   <br>
-                  そのまま広告運用まで担当し、クリ<br>エイティブの差替えで前任の代理<br>店よりCVRを1.7%改善。
+                  広告運用まで担当し、クリエイティ<br>ブの差替えで前任の代理店よりCVR<br>1.7%改善。
+                  <!-- <br>
+                  ECシステム、カートシステム、試着<br>システムの構築 -->
                 </td>
                 </tr>
             </tbody>
@@ -120,8 +142,9 @@
         </div>
       </ul>
     </li>
+  </div>
 
-    <li>
+    <ul>
       <strong>マーケティング業務</strong><br>
       GA4やahrefsなどを用いた競合調査・改善提案・広告運用まで幅広く対応。
       <ul>
@@ -132,33 +155,33 @@
           <a href="https://drive.google.com/file/d/1_DpwRSVWWuS7qD1hCghrX_uSIV2m3q0H/view?usp=drive_link" target="_blank">提案資料2</a>
         </li>
         <li>広告媒体：Google・Yahoo!リスティング／ディスプレイ広告</li>
-        <li>ECサイト広告にてROAS 300%を維持</li>
       </ul>
-    </li>
+    </ul>
 
-    <li>
+    <ul>
       <strong>その他の実績</strong>
       <ul>
-        <li>Google広告にてCVR 1.7%改善（前年同月比）</li>
+        <li>Google広告にて<span class="chart-red">CVR 1.7%改善</span>（前年同月比）</li>
+        <ul>
+          <li>ROAS <span class="chart-red">90%代  → 300%代</span>まで改善</li>
+        </ul>
+        <li>自社メディア改善：SEO構造ガイド作成 → 3ヶ月で<span class="chart-red">15%アクセス増（YoY）</span></li>
         <li>制作のテスト検証において必要な修正指示書を社内マニュアルとして独自作成。</li>
-        <li>自社メディア改善：SEO構造ガイド作成 → 3ヶ月で15%アクセス増（YoY）</li>
       </ul>
-    </li>
+    </ul>
   </ul>
 
-    <li>
-        <strong>工夫した業務</strong>
-        <ul>
-          <li>とにかくデバッグ管理での抜け漏れを仕組で減らすこと。</li>
-          <li>webシステムの仕組を理解してエンジニアとのコミュニケーションをスムーズにすること。</li>
-          <li>SEO的に優れたWebサイトを作れるよう、インプットを怠らないこと。</li>
-          <div class=image_container>
-            <img src="{{ asset('images/idealump/shisaly_td.png') }}" alt="スプレッドシートの管理画像" class="prof_image">
-            <img src="{{ asset('images/idealump/shisaly_prj_manage.png') }}" alt="スプレッドシートのTD定義画像" class="prof_image">
-          </div>
-        </ul>
-      </li>
-    </ul>
+    <strong>工夫した業務</strong>
+      <ul>
+        <li>とにかくデバッグ管理での抜け漏れを仕組で減らすこと。</li>
+        <li>webシステムの仕組を理解してエンジニアとのコミュニケーションをスムーズにすること。</li>
+        <li>SEO的に優れたWebサイトを作れるよう、インプットを怠らないこと。</li>
+        <div class=image_container>
+          <img src="{{ asset('images/idealump/shisaly_td.png') }}" alt="スプレッドシートの管理画像" class="prof_image">
+          <img src="{{ asset('images/idealump/shisaly_prj_manage.png') }}" alt="スプレッドシートのTD定義画像" class="prof_image">
+        </div>
+      </ul>
+  </ul>
 
   <h3>ポイント</h3>
   <div class="point_container">
@@ -176,7 +199,6 @@
     <br>
     データ分析に基づいた提案型の広告運用やSEO施策が強み。
   </p> -->
-  </div>
 </div>
 
 @include('components.job_historymenu_v2')
