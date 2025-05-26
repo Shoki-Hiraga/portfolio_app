@@ -29,8 +29,9 @@
   <h3>実績</h3>
   <ul>
     <li>
-      <strong>ディレクション業務</strong><br>
+      <h4>ディレクション業務</h4>
       新規Webサイト制作および既存サイトの機能追加における要件定義・ワイヤー作成・画面設計・進行管理などを担当。
+      <br>
         <li><a href ="{{ route('outbound.redirect', ['key' => 'shisaly']) }}" target="_blank" rel="nofollow" >shisaly.com</a>：Laravelを用いたフルスクラッチ案件</li>
         <div class=image_container>
           <img src="{{ asset('images/idealump/SP_shisaly.png') }}" alt="ShisalyのSP画面" class="prof_image">
@@ -82,6 +83,8 @@
           </table>
         </div>
 
+        <br>
+        <br>
         <br>
         <li><a href ="{{ route('outbound.redirect', ['key' => 'rabostar']) }}" target="_blank" rel="nofollow" >rabostar.com</a>：ASP・PHPによるスクラッチ開発</li>
         <div class=image_container>
@@ -140,38 +143,40 @@
             </tbody>
           </table>
         </div>
-      </ul>
     </li>
-  </div>
-
-    <ul>
-      <strong>マーケティング業務</strong><br>
-      GA4やahrefsなどを用いた競合調査・改善提案・広告運用まで幅広く対応。
-      <ul>
-        <li>レポート作成、改善提案書作成からリニューアルディレクションへの提案
-          <br>
-          <a href="https://drive.google.com/file/d/1Pdu6zjgnvW-effyNPM3B3vQjYbgYIVKf/view?usp=drive_link" target="_blank">提案資料1</a>
-          <br>
-          <a href="https://drive.google.com/file/d/1_DpwRSVWWuS7qD1hCghrX_uSIV2m3q0H/view?usp=drive_link" target="_blank">提案資料2</a>
-        </li>
-        <li>広告媒体：Google・Yahoo!リスティング／ディスプレイ広告</li>
-      </ul>
-    </ul>
-
-    <ul>
-      <strong>その他の実績</strong>
-      <ul>
-        <li>Google広告にて<span class="chart-red">CVR 1.7%改善</span>（前年同月比）</li>
-        <ul>
-          <li>ROAS <span class="chart-red">90%代  → 300%代</span>まで改善</li>
-        </ul>
-        <li>自社メディア改善：SEO構造ガイド作成 → 3ヶ月で<span class="chart-red">15%アクセス増（YoY）</span></li>
-        <li>制作のテスト検証において必要な修正指示書を社内マニュアルとして独自作成。</li>
-      </ul>
-    </ul>
   </ul>
 
-    <strong>工夫した業務</strong>
+  </div>
+
+  <h4>マーケティング業務</h4>
+      GA4やahrefsなどを用いた競合調査・改善提案・広告運用まで幅広く対応。
+      <ul>
+        <strong><li>実績</li></strong>
+        <ul>
+          <li>Google広告にて<span class="chart-red">CVR 1.7%改善</span>（前年同月比）</li>
+          <li>ROAS <span class="chart-red">90%代  → 300%代</span>まで改善</li>
+            <ul>
+              <li>広告媒体：Google・Yahoo!リスティング／ディスプレイ広告</li>
+                <img src="{{ asset('images/idealump/rabostar_ad.png') }}" alt="rabostarの広告画像" class="prof_image">
+                <br>※一例です
+            </ul>
+              <li>GA4やahrefsなどを用いた競合調査改善提案書作成
+            <br>
+            <a href="https://drive.google.com/file/d/1Pdu6zjgnvW-effyNPM3B3vQjYbgYIVKf/view?usp=drive_link" target="_blank">提案資料1</a>
+            <br>
+            <a href="https://drive.google.com/file/d/1_DpwRSVWWuS7qD1hCghrX_uSIV2m3q0H/view?usp=drive_link" target="_blank">提案資料2</a>
+          </li>
+          <li>自社メディア改善：SEO構造ガイド作成 → 3ヶ月で<span class="chart-red">15%アクセス増（YoY）</span></li>
+        </ul>
+      </ul>
+    </ul>
+
+  <h4>その他の実績</h4>
+    <ul>
+        <li>制作のテスト検証において必要な修正指示書を社内マニュアルとして独自作成。</li>
+    </ul>
+
+    <h4>工夫した業務</h4>
       <ul>
         <li>とにかくデバッグ管理での抜け漏れを仕組で減らすこと。</li>
         <li>webシステムの仕組を理解してエンジニアとのコミュニケーションをスムーズにすること。</li>

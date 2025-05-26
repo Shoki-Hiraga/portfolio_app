@@ -14,7 +14,7 @@
     <h1>カレント自動車株式会社<br>
       <span class="start_end">@include('components.year', ['target' => 'current'])</span>
     </h1>
-    <h2>システム開発ディレクション／SEO対策／データ分析／インフラ保守運用</h2>
+    <h2>システム開発ディレクション／SEO対策<br>データ分析／インフラ保守運用</h2>
 
 <div class="content">
   <h3>仕事内容</h3>
@@ -32,12 +32,9 @@
         <img src="{{ asset('images/currentmotor/main_product.png') }}" alt="Search Consoleデータ" class="prof_image_gsc">
 
   <h3>実績</h3>
-
+  <h4>PM／ディレクション業務</h4>
+    システム開発に関わる業務全般を広く担当。
     <ul>
-    <li>
-      <strong>PM／ディレクション業務</strong><br>
-      システム開発に関わる業務全般を広く担当。
-      <ul>
         <li>見込み数値の算出、PDCA基盤構築</li>
         <li>仕様策定</li>
         <li>システム / デザイン要件定義</li>
@@ -48,48 +45,43 @@
             </strong>
           </div>
       </ul>
-    </li>
 
-    <li>
-      <strong>Webマーケティング業務</strong><br>
-      GA4・Search Console・ahrefsなどを使用したデータ分析。
+  <h4>Webマーケティング業務</h4>
+    GA4・Search Console・ahrefsなどを使用したデータ分析。
+    <ul>
+      <li>記事型SEOコンテンツ施策設計による流入増</li>
+      <li>DB型SEOの対策、およびシステム設計</li>
       <ul>
-        <li>記事型SEOコンテンツ施策設計による流入増</li>
-        <li>DB型SEOの対策、およびシステム設計</li>
+        <strong><li>実績</li></strong>
           <div class="current_result_link">
             <strong>
               <a href="{{ route('mp_result') }}" target="_blank">SEO実績データ</a>
             </strong>
           </div>
         <ul>
-          <li>ポイント</li>
-          <ul>
-            <li><a href="{{ route('outbound.redirect', ['key' => 'qshaoh']) }}" target="_blank" rel="nofollow">旧車王</a>
-            ：コアアップデートで下落していた順位を、下落前まで回復させ、詳細ページの新規実装でYoYで<span class="chart-red">CV数500%改善</span>。
-            </li>
-            <li><a href="{{ route('outbound.redirect', ['key' => 'qshaoh_historia']) }}" target="_blank" rel="nofollow">旧車王ヒストリア</a>
-            ：過去バズった記事をテンプレート化、トピッククラスター型で記事を増やし、運用開始から<span class="chart-red">200%ほど認知拡大</span>に貢献。
-            </li>
-            <li><a href="{{ route('outbound.redirect', ['key' => 'campgarage_media']) }}" target="_blank" rel="nofollow">ガレキャン通信</a>
-            ：Webライターさんと協議しならがKWを選定し、書いた記事の<span class="chart-red">ザックリ70%程度は上位10位圏内</span>をマーク。
-            </li>
-          </ul>
+          <li><a href="{{ route('outbound.redirect', ['key' => 'qshaoh']) }}" target="_blank" rel="nofollow">旧車王</a>
+          ：コアアップデートで下落していた順位を、下落前まで回復させ、詳細ページの新規実装でYoYで<span class="chart-red">CV数500%改善</span>。
+          </li>
+          <li><a href="{{ route('outbound.redirect', ['key' => 'qshaoh_historia']) }}" target="_blank" rel="nofollow">旧車王ヒストリア</a>
+          ：過去バズった記事をテンプレート化、トピッククラスター型で記事を増やし、運用開始から<span class="chart-red">200%ほど認知拡大</span>に貢献。
+          </li>
+          <li><a href="{{ route('outbound.redirect', ['key' => 'campgarage_media']) }}" target="_blank" rel="nofollow">ガレキャン通信</a>
+          ：Webライターさんと協議しならがKWを選定し、書いた記事の<span class="chart-red">ザックリ70%程度は上位10位圏内</span>をマーク。
+          </li>
         </ul>
-        <!-- <li>リスティング広告（簡易運用）を通じたCTR改善</li>
-        <li>動的CTA実装によるCTR増加</li> -->
       </ul>
-    </li>
+      <!-- <li>リスティング広告（簡易運用）を通じたCTR改善</li>
+      <li>動的CTA実装によるCTR増加</li> -->
+    </ul>
+  </li>
 
-    <li>
-      <strong>マネジメント業務</strong><br>
-      KPI設計・メンバー育成・チーム最適化・開発支援体制の構築。
-      <ul>
-        <li>メンバーの業務に合わせたKPI設計</li>
-        <li>開発体制の立て直しと体制維持</li>
-      </ul>
-    </li>
-  </ul>
-
+  <h4>マネジメント業務</h4>
+    KPI設計・メンバー育成・チーム最適化・開発支援体制の構築。
+    <ul>
+      <li>メンバーの業務に合わせたKPI設計</li>
+      <li>業務効率化のための簡単なプログラミング</li>
+      <li>開発体制の立て直しと体制維持</li>
+    </ul>
 
   <h3>ポイント</h3>
     <div class="point_container">

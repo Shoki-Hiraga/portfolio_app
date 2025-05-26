@@ -1,3 +1,4 @@
+<a href="{{ route('mp_about') }}" class="fixed-bottom-link">職務経歴一覧へ</a>
 <h2>職務経歴一覧</h2>
 
 @php
@@ -9,11 +10,13 @@
     ];
 @endphp
 
-@foreach ($companies as $company)
-    <h3 class="job_history">
-        <a href="{{ route($company['route']) }}">
-            {{ $company['name'] }}
-            <span class="top_year">@include('components.year', ['target' => $company['key']])</span>
-        </a>
-    </h3>
-@endforeach
+<div class="job_history_content">
+    @foreach ($companies as $company)
+        <h3 class="job_history">
+            <a href="{{ route($company['route']) }}">
+                {{ $company['name'] }}
+                <span class="top_year">@include('components.year', ['target' => $company['key']])</span>
+            </a>
+        </h3>
+    @endforeach
+</div>

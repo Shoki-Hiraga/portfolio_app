@@ -9,6 +9,12 @@
   }
 }
 
+h3.job_history{
+    color: #0084ff;
+    margin-top: 10px !important;
+    background-color: #f9f9f9 !important;
+  }
+
 .gnav-accordion {
   border: 1px solid #ccc;
   border-radius: 8px;
@@ -37,6 +43,9 @@
   justify-content: space-between;
 }
 
+.job_history_content {
+  margin-bottom: 50px;
+}
 .job_history a {
   display: block;
   padding: 10px;
@@ -115,4 +124,25 @@
     background-color: #e6f3ff;
     margin-top: 8px;
     color: #555;
+}
+
+.fixed-bottom-link {
+    max-width: 300px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    background-color: #a7d4ff;
+    color: rgb(0, 0, 0);
+    padding: 12px 18px;
+    border-radius: 8px;
+    text-decoration: none;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    z-index: 1000;
+}
+
+.fixed-bottom-link:hover {
+    background-color: #fddfc3;
 }

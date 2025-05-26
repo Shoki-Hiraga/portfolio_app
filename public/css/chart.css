@@ -1,12 +1,3 @@
-  .content {
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* ← 横中央寄せ */
-    justify-content: center;
-    gap: 40px;
-    padding: 40px 0;
-  }
-
   .chart-canvas {
     display: block;
     margin: 50px auto; /* 上下30px、左右中央 */
@@ -14,6 +5,10 @@
 
   .reslut_content {
     margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* ← 横中央寄せ */
+    justify-content: center;
   }
 
   .box-chart-wrapper {
