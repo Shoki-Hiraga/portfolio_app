@@ -80,7 +80,7 @@
                 <div class="self">自己開発</div>
                     @include('components.web_link', ['target' => '332blog'])：一部確実に勝てるスモールワードでの設計、ボタンクリック計測
                     <br>
-                    @include('components.web_link', ['target' => 'carprice'])：WebアプリはLaravel、データ取得はPython
+                    @include('components.web_link', ['target' => 'carprice'])：WebアプリはLaravel、データ取得はPython、CMSはワードプレス
                     <br>
                     @include('components.web_link', ['target' => 'portfolio'])：共通パーツは View::share でコンポーネント化
                 <div class="organization">会社開発</div>
