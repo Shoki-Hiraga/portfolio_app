@@ -56,7 +56,13 @@
     <div class="box-chart-wrapper">
       <p>過去バズった、旧車25年ルール記事をテンプレート化、トピッククラスター型で車種毎の記事を量産。Google Discoverで定期的に流入増で、運用開始から<span class="chart-red">300%ほど認知拡大に貢献</span>。</p>
         <img src="{{ asset('images/currentmotor/historia_25year_rule.png') }}" alt="Search Consoleデータ" class="prof_image_gsc">
-    </div>
+        <p>2024_0404-0604と2025_0304-0604のYoY比較。</p>
+         <span>※記事は2024/03/15日公開で、Search Consoleのデータ取得期限に合わせて取得年月をずらしています。</span>
+        <div class="box-chart-wrapper-inner">
+          <img src="{{ asset('images/currentmotor/historia_25year_rule_2024_0404-0604.png') }}" alt="Search Consoleデータ" class="prof_image">
+          <img src="{{ asset('images/currentmotor/historia_25year_rule_2025_0304-0604.png') }}" alt="Search Consoleデータ" class="prof_image">
+        </div>
+      </div>
 
   <h3 class="chart-center">ガレキャン通信：Search Console クエリデータ</h3>
     <div class="box-chart-wrapper">

@@ -1,5 +1,5 @@
 <details class="gnav-accordion">
-    <summary class="gnav-title">職務経歴一覧：2025/5/24 更新</summary>
+    <summary class="gnav-title">職務経歴一覧：2025/6/05 更新</summary>
     <div class="gnav-list">
         @php
             $companies = [

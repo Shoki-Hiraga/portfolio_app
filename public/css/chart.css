@@ -14,11 +14,20 @@
   .box-chart-wrapper {
     border: 3px solid #ccc; /* 枠線の色と太さ */
     padding: 15px;           /* 内側の余白 */
-    margin-bottom: 100px;     /* 他の要素との間隔 */
+    margin-bottom: 70px;     /* 他の要素との間隔 */
     border-radius: 8px;      /* 角の丸み（お好みで） */
     background-color: #ffffff; /* 背景色（任意） */
     overflow-x: auto;
+}
 
+  .box-chart-wrapper-inner {
+    border: 3px solid #ccc; /* 枠線の色と太さ */
+    padding: 15px;           /* 内側の余白 */
+    margin-top: 20px;     /* 他の要素との間隔 */
+    margin-bottom: 10px;     /* 他の要素との間隔 */
+    border-radius: 8px;      /* 角の丸み（お好みで） */
+    background-color: #ffffff; /* 背景色（任意） */
+    overflow-x: auto;
 }
 
 h3.chart-center {
