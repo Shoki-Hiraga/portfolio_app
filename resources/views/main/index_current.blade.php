@@ -63,7 +63,7 @@
           ：コアアップデートで下落していた順位を、下落前まで回復させ、詳細ページの新規実装でYoYで<span class="chart-red">CV数500%改善</span>。
           </li>
           <li><a href="{{ route('outbound.redirect', ['key' => 'qshaoh_historia']) }}" target="_blank" rel="nofollow">旧車王ヒストリア</a>
-          ：過去バズった記事をテンプレート化、トピッククラスター型で記事を増やし、運用開始から<span class="chart-red">200%ほど認知拡大</span>に貢献。
+          ：過去バズった記事をテンプレート化、トピッククラスター型で記事を増やし、運用開始から<span class="chart-red">300%ほど認知拡大</span>に貢献。
           </li>
           <li><a href="{{ route('outbound.redirect', ['key' => 'campgarage_media']) }}" target="_blank" rel="nofollow">ガレキャン通信</a>
           ：Webライターさんと協議しならがKWを選定し、書いた記事の<span class="chart-red">ザックリ70%程度は上位10位圏内</span>をマーク。
