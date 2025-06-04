@@ -154,7 +154,7 @@
         <strong><li>実績</li></strong>
         <ul>
           <li>Google広告にて<span class="chart-red">CVR 1.7%改善</span>（前年同月比）</li>
-          <li>ROAS <span class="chart-red">90%代  → 300%代</span>まで改善</li>
+          <li>ROAS <span class="chart-red">90%代  → 150%代</span>まで改善</li>
             <ul>
               <li>広告媒体：Google・Yahoo!リスティング／ディスプレイ広告</li>
                 <img src="{{ asset('images/idealump/rabostar_ad.png') }}" alt="rabostarの広告画像" class="prof_image">
