@@ -38,7 +38,7 @@
             plugins: {
                 title: {
                     display: true,
-                    text: 'スキルチャート',   // ← ここでタイトル描画
+                    text: '【スキルチャート】',   // ← ここでタイトル描画
                     font: {
                         size: 14,
                         weight: 'bold'
