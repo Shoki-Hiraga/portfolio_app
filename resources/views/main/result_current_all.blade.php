@@ -62,7 +62,7 @@
 
   <h3 class="chart-center">ガレキャン通信：Search Console クエリデータ</h3>
     <div class="box-chart-wrapper">
-      <p>Webライターさんと協議しならがKWを選定し、書いた記事の<span class="chart-red">ザックリ70%程度は上位10位圏内</span>をマーク。</p>
+      <p>Webライターさんと協議しならがKWを選定し、書いた記事の<span class="chart-red">概ね70%程度は上位10位圏内</span>をマーク。</p>
         <img src="{{ asset('images/currentmotor/gare_camp.png') }}" alt="Search Consoleデータ" class="prof_image_gsc">
       <a href="https://docs.google.com/spreadsheets/d/17Ce6L268v1A4Jps9qaqqoHuBmdTp8u926ZXGr5M2avM/edit?gid=1116325167#gid=1116325167"target="_blank" style="display: block; text-align: center !important;">
       スプレッドシートデータ

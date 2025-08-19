@@ -33,8 +33,25 @@
             }]
         },
         options: {
-            responsive: false,
+            responsive: true,
             maintainAspectRatio: false,
+            plugins: {
+                title: {
+                    display: true,
+                    text: 'スキルチャート',   // ← ここでタイトル描画
+                    font: {
+                        size: 14,
+                        weight: 'bold'
+                    },
+                    padding: {
+                        top: 10,
+                        bottom: 10
+                    }
+                },
+                legend: {
+                    position: 'bottom'  // ← 凡例を下に配置
+                }
+            },
             scales: {
                 r: {
                     beginAtZero: true,
@@ -44,8 +61,9 @@
                     },
                     pointLabels: {
                         font: {
-                            size: 20  // ← ★ここでラベルの文字サイズを大きく
-                        }
+                            size: 16
+                        },
+                        padding: 15 // ← ラベルと中心の距離を広げる
                     }
                 }
             }

@@ -14,7 +14,8 @@
             昔から車が好きで、それがきっかけでDIYにハマり、今となってはWebサイトの技術にハマり、ソフトでもハードでもモノづくりが好きです。
             以下に簡単なポートフォリオや職務経歴をまとめましたので、ぜひご覧いただけますと幸いです。
         </p>
-        <img src="{{ asset('images/samukawa.jpg') }}" alt="車の画像" class="top_image">
+        <img src="{{ asset('images/332R.jpg') }}" alt="車の画像" class="top_image">
+        <!-- <img src="{{ asset('images/samukawa.jpg') }}" alt="車の画像" class="top_image"> -->
 
         <h2>プロフィール</h2>
             <div class="card">
@@ -70,7 +71,7 @@
                     </div>
                 </div>
             </div>
-            <h2>スキルチャート</h2>
+            <h2>スキル</h2>
             @include('components.chart.skillchart')
             <!-- <img src="{{ asset('images/スキルチャート.png') }}" alt="平賀翔貴" class="top_image"> -->
 

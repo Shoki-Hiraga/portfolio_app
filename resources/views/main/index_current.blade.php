@@ -66,7 +66,7 @@
           ：過去バズった記事をテンプレート化、トピッククラスター型で記事を増やし、運用開始から<span class="chart-red">300%ほど認知拡大</span>に貢献。
           </li>
           <li><a href="{{ route('outbound.redirect', ['key' => 'campgarage_media']) }}" target="_blank" rel="nofollow">ガレキャン通信</a>
-          ：Webライターさんと協議しならがKWを選定し、書いた記事の<span class="chart-red">ザックリ70%程度は上位10位圏内</span>をマーク。
+          ：Webライターさんと協議しならがKWを選定し、書いた記事の<span class="chart-red">概ね70%程度は上位10位圏内</span>をマーク。
           </li>
         </ul>
       </ul>
@@ -80,7 +80,8 @@
     <ul>
       <li>メンバーの業務に合わせたKPI設計</li>
       <li>業務効率化のための簡単なプログラミング</li>
-      <li>開発体制の立て直しと体制維持</li>
+      <li>開発体制の立直しと体制維持</li>
+      <li>施策運用体制の立直しと再構築</li>
     </ul>
 
   <h3>ポイント</h3>
